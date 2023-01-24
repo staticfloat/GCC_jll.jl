@@ -1,0 +1,12 @@
+[[GCC]]
+arch = "x86_64"
+git-tree-sha1 = "ebc0a52b9dbc84fd20947853e37e92836c5c58e8"
+libc = "glibc"
+os = "linux"
+target_arch = "x86_64"
+target_libc = "glibc"
+target_os = "linux"
+
+    [[GCC.download]]
+    sha256 = "44d80c9146083aa54f9ac486c4cdec1d0814bc30e0c1207e947a0b5df0ff1474"
+    url = "https://github.com/staticfloat/linux-gcc-toolchains/releases/download/GCC-v9.1.0-x86_64-linux-gnu/GCC.v9.1.0.x86_64-linux-gnu-target_libc+glibc-target_os+linux-target_arch+x86_64.tar.gz"
