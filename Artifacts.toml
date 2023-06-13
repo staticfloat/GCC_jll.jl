@@ -16,7 +16,7 @@ arch = "aarch64"
 git-tree-sha1 = "7b269530878a7696dcf994d3927f1b6f4d5eeccc"
 libc = "glibc"
 os = "linux"
-target_arch = "x86_64"
+target_arch = "aarch64"
 target_libc = "glibc"
 target_os = "linux"
 
