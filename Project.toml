@@ -1,14 +1,14 @@
 name = "GCC_jll"
 uuid = "ec15993a-68c6-5861-8652-ef539d7ffb0b"
-version = "0.0.0+0"
+version = "9.1.3"
 
 [deps]
-JLLWrappers = "692b3bcd-3c85-4b1f-b108-f13ce0eb3210"
-Pkg = "44cfe95a-1eb2-52ea-b672-e2afdf69b78f"
-Zlib_jll = "83775a58-1f1d-513f-b197-d71354ab007a"
 Libdl = "8f399da3-3557-5675-b5ff-fb832c97cbdb"
+LinuxKernelHeaders_jll = "d754bdc3-4c87-55c0-a004-f56830624a1e"
+LazyJLLWrappers = "21706172-204c-4d4f-5420-656854206f44"
+Glibc_jll = "452aa2e7-e185-58db-8ff9-d3c1fa4bc997"
 Artifacts = "56f22d72-fd6d-98f1-02f0-08ddc0907c33"
 
 [compat]
-JLLWrappers = "1.2.0"
 julia = "1.6"
+LazyJLLWrappers = "1.0.0"
