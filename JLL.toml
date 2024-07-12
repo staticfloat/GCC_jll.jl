@@ -1,0 +1,143 @@
+name = "GCC"
+version = "9.1.1"
+julia_compat = "1.6"
+platform_augmentation_code = ""
+
+[[builds]]
+name = "GCC"
+lazy = "false"
+src_version = "9.1.0"
+platform = "x86_64-linux-gnu-target_libc+glibc-target_os+linux-target_call_abi+eabihf-target_arch+armv7l"
+
+    [[builds.deps]]
+    name = "LinuxKernelHeaders_jll"
+    uuid = "d754bdc3-4c87-55c0-a004-f56830624a1e"
+    compat = "*"
+    [[builds.deps]]
+    name = "Glibc_jll"
+    uuid = "452aa2e7-e185-58db-8ff9-d3c1fa4bc997"
+    compat = "*"
+
+    [builds.callback_defs]
+
+    [builds.auxilliary_artifacts.build_log]
+    treehash = "sha1:940e54b0d606f478ffd4e61cb3b685f4a717a703"
+
+        [[builds.auxilliary_artifacts.build_log.download_sources]]
+        tarball_hash = "sha256:3fea26812eaa7034e51a309f3914e4caec7ce472e206fb7e8f5fd4fe8b0e6f68"
+        url = "https://github.com/staticfloat/GCC_jll.jl/releases/download/v9.1.1-GXXTEST/GCC-build_log-v9.1.1-x86_64-linux-gnu-target_libc+glibc-target_os+linux-target_call_abi+eabihf-target_arch+armv7l.tar.gz"
+
+    [builds.auxilliary_artifacts.extract_log]
+    treehash = "sha1:98f54f5c8376c91e95fb0eeb347cb92267bde82c"
+
+        [[builds.auxilliary_artifacts.extract_log.download_sources]]
+        tarball_hash = "sha256:237a7f64008053dd932791270f09c65f7f9abde027e9c4e774e175bd5cf54ba0"
+        url = "https://github.com/staticfloat/GCC_jll.jl/releases/download/v9.1.1-GXXTEST/GCC-extract_log-v9.1.1-x86_64-linux-gnu-target_libc+glibc-target_os+linux-target_call_abi+eabihf-target_arch+armv7l.tar.gz"
+
+    [[builds.products]]
+    name = "bindir"
+    type = "file"
+    path = "bin"
+    [[builds.products]]
+    name = "gcc"
+    type = "executable"
+    path = "bin/armv7l-linux-gnueabihf-gcc"
+    [[builds.products]]
+    name = "gxx"
+    type = "executable"
+    path = "bin/armv7l-linux-gnueabihf-g++"
+
+    [[builds.sources]]
+    treehash = "sha1:9eb9d62738bbf9a338536a287ee4e3effc11f730"
+    url = "https://mirrors.kernel.org/gnu/gcc/gcc-9.1.0/gcc-9.1.0.tar.xz"
+    [[builds.sources]]
+    treehash = "sha1:f50d267112900a860acac364c2b5f03fb452e821"
+    url = "https://mirrors.kernel.org/gnu/mpfr/mpfr-4.0.2.tar.xz"
+    [[builds.sources]]
+    treehash = "sha1:9cab68a9f3310c59188d25d51cc174f3ed1b0729"
+    url = "https://mirrors.kernel.org/gnu/mpc/mpc-1.1.0.tar.gz"
+    [[builds.sources]]
+    treehash = "sha1:f8f09232805fd55a38f1a24d9a1f361d299541e6"
+    url = "https://gcc.gnu.org/pub/gcc/infrastructure/isl-0.18.tar.bz2"
+    [[builds.sources]]
+    treehash = "sha1:54b440baf766f19c79fb2d9b721079ed077f67b4"
+    url = "https://mirrors.kernel.org/gnu/gmp/gmp-6.1.2.tar.xz"
+    [[builds.sources]]
+    treehash = "sha1:8aa38dc78b0cd6dee61434679ffbd212631d79fd"
+    url = "/home/sabae/src/BB2/bootstrap/GCC/patches-v9.1.0"
+
+    [builds.artifact]
+    treehash = "sha1:e337e7383ce7685fcb51220b07a201cddd308548"
+
+        [[builds.artifact.download_sources]]
+        tarball_hash = "sha256:f148133297f0d08966dec0c6ca73202bf41aa51af48c1c5f4289c64586ed0c09"
+        url = "https://github.com/staticfloat/GCC_jll.jl/releases/download/v9.1.1-GXXTEST/GCC-v9.1.1-x86_64-linux-gnu-target_libc+glibc-target_os+linux-target_call_abi+eabihf-target_arch+armv7l.tar.gz"
+[[builds]]
+name = "GCC"
+lazy = "false"
+src_version = "9.1.0"
+platform = "armv7l-linux-gnueabihf-target_libc+glibc-target_os+linux-target_call_abi+eabihf-target_arch+armv7l"
+
+    [[builds.deps]]
+    name = "LinuxKernelHeaders_jll"
+    uuid = "d754bdc3-4c87-55c0-a004-f56830624a1e"
+    compat = "*"
+    [[builds.deps]]
+    name = "Glibc_jll"
+    uuid = "452aa2e7-e185-58db-8ff9-d3c1fa4bc997"
+    compat = "*"
+
+    [builds.callback_defs]
+
+    [builds.auxilliary_artifacts.build_log]
+    treehash = "sha1:5c76d9338c3a11734187ff044cbe9d985c5f5b4d"
+
+        [[builds.auxilliary_artifacts.build_log.download_sources]]
+        tarball_hash = "sha256:4e3a98e5ca80869a4bf406092381a0d86e3b8e4ade892ef12d7642ef74960619"
+        url = "https://github.com/staticfloat/GCC_jll.jl/releases/download/v9.1.1-GXXTEST/GCC-build_log-v9.1.1-armv7l-linux-gnueabihf-target_libc+glibc-target_os+linux-target_call_abi+eabihf-target_arch+armv7l.tar.gz"
+
+    [builds.auxilliary_artifacts.extract_log]
+    treehash = "sha1:1da9a3aaafa881a003100293a9b608e2b7de247e"
+
+        [[builds.auxilliary_artifacts.extract_log.download_sources]]
+        tarball_hash = "sha256:c3bd770a180c220b838fbcfb4513943daf28cc04bf4aa4402ece4a60ca29c9c6"
+        url = "https://github.com/staticfloat/GCC_jll.jl/releases/download/v9.1.1-GXXTEST/GCC-extract_log-v9.1.1-armv7l-linux-gnueabihf-target_libc+glibc-target_os+linux-target_call_abi+eabihf-target_arch+armv7l.tar.gz"
+
+    [[builds.products]]
+    name = "bindir"
+    type = "file"
+    path = "bin"
+    [[builds.products]]
+    name = "gcc"
+    type = "executable"
+    path = "bin/armv7l-linux-gnueabihf-gcc"
+    [[builds.products]]
+    name = "gxx"
+    type = "executable"
+    path = "bin/armv7l-linux-gnueabihf-g++"
+
+    [[builds.sources]]
+    treehash = "sha1:9eb9d62738bbf9a338536a287ee4e3effc11f730"
+    url = "https://mirrors.kernel.org/gnu/gcc/gcc-9.1.0/gcc-9.1.0.tar.xz"
+    [[builds.sources]]
+    treehash = "sha1:f50d267112900a860acac364c2b5f03fb452e821"
+    url = "https://mirrors.kernel.org/gnu/mpfr/mpfr-4.0.2.tar.xz"
+    [[builds.sources]]
+    treehash = "sha1:9cab68a9f3310c59188d25d51cc174f3ed1b0729"
+    url = "https://mirrors.kernel.org/gnu/mpc/mpc-1.1.0.tar.gz"
+    [[builds.sources]]
+    treehash = "sha1:f8f09232805fd55a38f1a24d9a1f361d299541e6"
+    url = "https://gcc.gnu.org/pub/gcc/infrastructure/isl-0.18.tar.bz2"
+    [[builds.sources]]
+    treehash = "sha1:54b440baf766f19c79fb2d9b721079ed077f67b4"
+    url = "https://mirrors.kernel.org/gnu/gmp/gmp-6.1.2.tar.xz"
+    [[builds.sources]]
+    treehash = "sha1:8aa38dc78b0cd6dee61434679ffbd212631d79fd"
+    url = "/home/sabae/src/BB2/bootstrap/GCC/patches-v9.1.0"
+
+    [builds.artifact]
+    treehash = "sha1:9c1da1fc55eef8af01d65385db9ad3661854efbd"
+
+        [[builds.artifact.download_sources]]
+        tarball_hash = "sha256:4356f789d627edbcbe234d87434b4044e16570fa537c15aa9b95934e38a0b51a"
+        url = "https://github.com/staticfloat/GCC_jll.jl/releases/download/v9.1.1-GXXTEST/GCC-v9.1.1-armv7l-linux-gnueabihf-target_libc+glibc-target_os+linux-target_call_abi+eabihf-target_arch+armv7l.tar.gz"

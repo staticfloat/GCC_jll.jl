@@ -1,25 +1,87 @@
 [[GCC]]
 arch = "x86_64"
-git-tree-sha1 = "ebc0a52b9dbc84fd20947853e37e92836c5c58e8"
+git-tree-sha1 = "e337e7383ce7685fcb51220b07a201cddd308548"
 libc = "glibc"
 os = "linux"
-target_arch = "x86_64"
+target_arch = "armv7l"
+target_call_abi = "eabihf"
 target_libc = "glibc"
 target_os = "linux"
 
     [[GCC.download]]
-    sha256 = "44d80c9146083aa54f9ac486c4cdec1d0814bc30e0c1207e947a0b5df0ff1474"
-    url = "https://github.com/staticfloat/linux-gcc-toolchains/releases/download/GCC-v9.1.0-x86_64-linux-gnu/GCC.v9.1.0.x86_64-linux-gnu-target_libc+glibc-target_os+linux-target_arch+x86_64.tar.gz"
-
+    sha256 = "f148133297f0d08966dec0c6ca73202bf41aa51af48c1c5f4289c64586ed0c09"
+    url = "https://github.com/staticfloat/GCC_jll.jl/releases/download/v9.1.1-GXXTEST/GCC-v9.1.1-x86_64-linux-gnu-target_libc+glibc-target_os+linux-target_call_abi+eabihf-target_arch+armv7l.tar.gz"
 [[GCC]]
-arch = "aarch64"
-git-tree-sha1 = "7b269530878a7696dcf994d3927f1b6f4d5eeccc"
+arch = "armv7l"
+call_abi = "eabihf"
+git-tree-sha1 = "9c1da1fc55eef8af01d65385db9ad3661854efbd"
 libc = "glibc"
 os = "linux"
-target_arch = "aarch64"
+target_arch = "armv7l"
+target_call_abi = "eabihf"
 target_libc = "glibc"
 target_os = "linux"
 
     [[GCC.download]]
-    sha256 = "04354a45fefd6fbdf31c32b4c2127cd87caf9e85de98e4cf12a0c312d5a9ab43"
-    url = "https://github.com/staticfloat/linux-gcc-toolchains/releases/download/GCC-v9.1.0-aarch64-linux-gnu/GCC.v9.1.0.aarch64-linux-gnu-target_libc+glibc-target_os+linux-target_arch+aarch64.tar.gz"
+    sha256 = "4356f789d627edbcbe234d87434b4044e16570fa537c15aa9b95934e38a0b51a"
+    url = "https://github.com/staticfloat/GCC_jll.jl/releases/download/v9.1.1-GXXTEST/GCC-v9.1.1-armv7l-linux-gnueabihf-target_libc+glibc-target_os+linux-target_call_abi+eabihf-target_arch+armv7l.tar.gz"
+
+[[GCC-build_log]]
+arch = "x86_64"
+git-tree-sha1 = "940e54b0d606f478ffd4e61cb3b685f4a717a703"
+lazy = true
+libc = "glibc"
+os = "linux"
+target_arch = "armv7l"
+target_call_abi = "eabihf"
+target_libc = "glibc"
+target_os = "linux"
+
+    [[GCC-build_log.download]]
+    sha256 = "3fea26812eaa7034e51a309f3914e4caec7ce472e206fb7e8f5fd4fe8b0e6f68"
+    url = "https://github.com/staticfloat/GCC_jll.jl/releases/download/v9.1.1-GXXTEST/GCC-build_log-v9.1.1-x86_64-linux-gnu-target_libc+glibc-target_os+linux-target_call_abi+eabihf-target_arch+armv7l.tar.gz"
+[[GCC-build_log]]
+arch = "armv7l"
+call_abi = "eabihf"
+git-tree-sha1 = "5c76d9338c3a11734187ff044cbe9d985c5f5b4d"
+lazy = true
+libc = "glibc"
+os = "linux"
+target_arch = "armv7l"
+target_call_abi = "eabihf"
+target_libc = "glibc"
+target_os = "linux"
+
+    [[GCC-build_log.download]]
+    sha256 = "4e3a98e5ca80869a4bf406092381a0d86e3b8e4ade892ef12d7642ef74960619"
+    url = "https://github.com/staticfloat/GCC_jll.jl/releases/download/v9.1.1-GXXTEST/GCC-build_log-v9.1.1-armv7l-linux-gnueabihf-target_libc+glibc-target_os+linux-target_call_abi+eabihf-target_arch+armv7l.tar.gz"
+
+[[GCC-extract_log]]
+arch = "x86_64"
+git-tree-sha1 = "98f54f5c8376c91e95fb0eeb347cb92267bde82c"
+lazy = true
+libc = "glibc"
+os = "linux"
+target_arch = "armv7l"
+target_call_abi = "eabihf"
+target_libc = "glibc"
+target_os = "linux"
+
+    [[GCC-extract_log.download]]
+    sha256 = "237a7f64008053dd932791270f09c65f7f9abde027e9c4e774e175bd5cf54ba0"
+    url = "https://github.com/staticfloat/GCC_jll.jl/releases/download/v9.1.1-GXXTEST/GCC-extract_log-v9.1.1-x86_64-linux-gnu-target_libc+glibc-target_os+linux-target_call_abi+eabihf-target_arch+armv7l.tar.gz"
+[[GCC-extract_log]]
+arch = "armv7l"
+call_abi = "eabihf"
+git-tree-sha1 = "1da9a3aaafa881a003100293a9b608e2b7de247e"
+lazy = true
+libc = "glibc"
+os = "linux"
+target_arch = "armv7l"
+target_call_abi = "eabihf"
+target_libc = "glibc"
+target_os = "linux"
+
+    [[GCC-extract_log.download]]
+    sha256 = "c3bd770a180c220b838fbcfb4513943daf28cc04bf4aa4402ece4a60ca29c9c6"
+    url = "https://github.com/staticfloat/GCC_jll.jl/releases/download/v9.1.1-GXXTEST/GCC-extract_log-v9.1.1-armv7l-linux-gnueabihf-target_libc+glibc-target_os+linux-target_call_abi+eabihf-target_arch+armv7l.tar.gz"
