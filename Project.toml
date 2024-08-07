@@ -1,6 +1,6 @@
 name = "GCC_jll"
 uuid = "ec15993a-68c6-5861-8652-ef539d7ffb0b"
-version = "9.1.0"
+version = "9.1.1"
 
 [deps]
 Musl_jll = "3490aa6f-05e0-5d3a-9648-5b0c647c155f"
