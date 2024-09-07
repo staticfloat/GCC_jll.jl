@@ -1,5 +1,5 @@
 name = "GCC"
-version = "9.1.0"
+version = "9.1.1"
 julia_compat = "1.6"
 platform_augmentation_code = ""
 
@@ -40,18 +40,18 @@ src_version = "9.1.0"
     [builds.callback_defs]
 
     [builds.auxilliary_artifacts.build_log]
-    treehash = "sha1:60b152d12d84df566301dc9cce7bf473fde03254"
+    treehash = "sha1:9eb591cb0e5b7c31edd6acef873f54d3f9d50df6"
 
         [[builds.auxilliary_artifacts.build_log.download_sources]]
-        tarball_hash = "sha256:924fc636dc58d4862ffeefa60050b1117fe831c7dae0f4fe60eb11e5513f376d"
-        url = "https://github.com/staticfloat/GCC_jll.jl/releases/download/v9.1.0-GCC/GCC-build_log-v9.1.0-aarch64-linux-gnu-target_libc+glibc-target_os+linux-target_arch+x86_64.tar.gz"
+        tarball_hash = "sha256:4829ee03964737192394b1e98f5efedfbb1b225a91233b4726e053802dc2a9d4"
+        url = "https://github.com/staticfloat/GCC_jll.jl/releases/download/v9.1.1-GCC/GCC-build_log-v9.1.1-aarch64-linux-gnu-target_libc+glibc-target_os+linux-target_arch+x86_64.tar.gz"
 
     [builds.auxilliary_artifacts.extract_log]
-    treehash = "sha1:aef8e95e08528c212134070c22038ac1a9a80f4b"
+    treehash = "sha1:89c930e048085ca05178c94923b345bc7c54ee48"
 
         [[builds.auxilliary_artifacts.extract_log.download_sources]]
-        tarball_hash = "sha256:8c34fa918d19c8dec84eeaa50da5610d6e0b4c915c3f5d44170fcdda0ab9a4a3"
-        url = "https://github.com/staticfloat/GCC_jll.jl/releases/download/v9.1.0-GCC/GCC-extract_log-v9.1.0-aarch64-linux-gnu-target_libc+glibc-target_os+linux-target_arch+x86_64.tar.gz"
+        tarball_hash = "sha256:63a12861c58795e1e9edc856a29de6a49fb7267ee6f8919472ebc5612bec3f47"
+        url = "https://github.com/staticfloat/GCC_jll.jl/releases/download/v9.1.1-GCC/GCC-extract_log-v9.1.1-aarch64-linux-gnu-target_libc+glibc-target_os+linux-target_arch+x86_64.tar.gz"
 
     [[builds.products]]
     name = "gcc"
@@ -85,8 +85,8 @@ src_version = "9.1.0"
     treehash = "sha1:3aa5b9089b9f3dfea25316d5fcceaaa7da203ce9"
 
         [[builds.artifact.download_sources]]
-        tarball_hash = "sha256:e8fa710c4741277663ea061be36af0307a4e3c0cc32f10532178a30bd087892b"
-        url = "https://github.com/staticfloat/GCC_jll.jl/releases/download/v9.1.0-GCC/GCC-v9.1.0-aarch64-linux-gnu-target_libc+glibc-target_os+linux-target_arch+x86_64.tar.gz"
+        tarball_hash = "sha256:b0cd2624a030be64b71c9802676dc8b4181b2e2dbb3c4202a44fc6b056e4e84d"
+        url = "https://github.com/staticfloat/GCC_jll.jl/releases/download/v9.1.1-GCC/GCC-v9.1.1-aarch64-linux-gnu-target_libc+glibc-target_os+linux-target_arch+x86_64.tar.gz"
 [[builds]]
 name = "GCC"
 platform = "x86_64-linux-gnu-target_libc+glibc-target_os+linux-target_arch+x86_64"
@@ -124,18 +124,18 @@ src_version = "9.1.0"
     [builds.callback_defs]
 
     [builds.auxilliary_artifacts.build_log]
-    treehash = "sha1:3832fa2e7c9f18b441e4516282468f8265a62a31"
+    treehash = "sha1:381d839a27b773b4de28751bf0f5f48a3564c7ae"
 
         [[builds.auxilliary_artifacts.build_log.download_sources]]
-        tarball_hash = "sha256:60d7c86e1b6d244d62571aa6f163e917334382c93496065240cb99a0269ffc8d"
-        url = "https://github.com/staticfloat/GCC_jll.jl/releases/download/v9.1.0-GCC/GCC-build_log-v9.1.0-x86_64-linux-gnu-target_libc+glibc-target_os+linux-target_arch+x86_64.tar.gz"
+        tarball_hash = "sha256:ea63e961d297366abfcaa4363f4245ba06c82045e3b64d6da88e966289a013fd"
+        url = "https://github.com/staticfloat/GCC_jll.jl/releases/download/v9.1.1-GCC/GCC-build_log-v9.1.1-x86_64-linux-gnu-target_libc+glibc-target_os+linux-target_arch+x86_64.tar.gz"
 
     [builds.auxilliary_artifacts.extract_log]
-    treehash = "sha1:e71d0dec3cc26e9e99b0c7f54eceb884df0e414f"
+    treehash = "sha1:ddac15329b6b2bc87d806f4e230fff36dccd92d8"
 
         [[builds.auxilliary_artifacts.extract_log.download_sources]]
-        tarball_hash = "sha256:48d039c2ab3570c29adc3353024edb224a86c3f5e8e78dfce9507b6d8e588bb3"
-        url = "https://github.com/staticfloat/GCC_jll.jl/releases/download/v9.1.0-GCC/GCC-extract_log-v9.1.0-x86_64-linux-gnu-target_libc+glibc-target_os+linux-target_arch+x86_64.tar.gz"
+        tarball_hash = "sha256:b249d66629a5795c76fdb20d820447dd63307a8ab607c237b8dd0b5fa52da5cb"
+        url = "https://github.com/staticfloat/GCC_jll.jl/releases/download/v9.1.1-GCC/GCC-extract_log-v9.1.1-x86_64-linux-gnu-target_libc+glibc-target_os+linux-target_arch+x86_64.tar.gz"
 
     [[builds.products]]
     name = "gcc"
@@ -169,5 +169,5 @@ src_version = "9.1.0"
     treehash = "sha1:0c21ba463c0a9d6bb2aea00b9db7437f2f3da56a"
 
         [[builds.artifact.download_sources]]
-        tarball_hash = "sha256:129e12212a0ffc2abe1f5dd90078fef6777e6a64583fb00b0274647f8fddf216"
-        url = "https://github.com/staticfloat/GCC_jll.jl/releases/download/v9.1.0-GCC/GCC-v9.1.0-x86_64-linux-gnu-target_libc+glibc-target_os+linux-target_arch+x86_64.tar.gz"
+        tarball_hash = "sha256:b89c739a34a095ac993ccb20eb8a7c3b9d1b59f5dbdf2080eced1e8996e7ada3"
+        url = "https://github.com/staticfloat/GCC_jll.jl/releases/download/v9.1.1-GCC/GCC-v9.1.1-x86_64-linux-gnu-target_libc+glibc-target_os+linux-target_arch+x86_64.tar.gz"
