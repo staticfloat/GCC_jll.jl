@@ -1,6 +1,6 @@
 [[GCC]]
-arch = "x86_64"
-git-tree-sha1 = "ebc0a52b9dbc84fd20947853e37e92836c5c58e8"
+arch = "aarch64"
+git-tree-sha1 = "ae1dd89e64a018f01ab12870ac6b31291b5c3c50"
 libc = "glibc"
 os = "linux"
 target_arch = "x86_64"
@@ -8,12 +8,35 @@ target_libc = "glibc"
 target_os = "linux"
 
     [[GCC.download]]
-    sha256 = "44d80c9146083aa54f9ac486c4cdec1d0814bc30e0c1207e947a0b5df0ff1474"
-    url = "https://github.com/staticfloat/linux-gcc-toolchains/releases/download/GCC-v9.1.0-x86_64-linux-gnu/GCC.v9.1.0.x86_64-linux-gnu-target_libc+glibc-target_os+linux-target_arch+x86_64.tar.gz"
+    sha256 = "cd171b183352f41a41535958a5af1a8a141a58755cfda7c2b4f48301e40d0d82"
+    url = "https://github.com/staticfloat/GCC_jll.jl/releases/download/v9.4.0/GCC-v9.4.0-aarch64-linux-gnu-target_libc+glibc-target_os+linux-target_arch+x86_64.tar.gz"
+[[GCC]]
+arch = "x86_64"
+git-tree-sha1 = "703e855d638018b634d6a82af419e2297409714b"
+libc = "glibc"
+os = "linux"
+target_arch = "i686"
+target_libc = "glibc"
+target_os = "linux"
 
+    [[GCC.download]]
+    sha256 = "edd9d59f9e35d06b35607b52ca64ecdaf1cf236c7b957641ef741cf5ce6593bb"
+    url = "https://github.com/staticfloat/GCC_jll.jl/releases/download/v9.4.0/GCC-v9.4.0-x86_64-linux-gnu-target_libc+glibc-target_os+linux-target_arch+i686.tar.gz"
 [[GCC]]
 arch = "aarch64"
-git-tree-sha1 = "7b269530878a7696dcf994d3927f1b6f4d5eeccc"
+git-tree-sha1 = "3c0349d22dae88d6c81f4d499c9babaa3fc7ba83"
+libc = "glibc"
+os = "linux"
+target_arch = "i686"
+target_libc = "glibc"
+target_os = "linux"
+
+    [[GCC.download]]
+    sha256 = "96810d8dbc18d9ff706b92eaa331ad8a9673f25f48f6b3be06fe758b57a9f59a"
+    url = "https://github.com/staticfloat/GCC_jll.jl/releases/download/v9.4.0/GCC-v9.4.0-aarch64-linux-gnu-target_libc+glibc-target_os+linux-target_arch+i686.tar.gz"
+[[GCC]]
+arch = "x86_64"
+git-tree-sha1 = "5293002b073bcd7d79607f7c23e2f3600fc0d647"
 libc = "glibc"
 os = "linux"
 target_arch = "aarch64"
@@ -21,5 +44,1389 @@ target_libc = "glibc"
 target_os = "linux"
 
     [[GCC.download]]
-    sha256 = "04354a45fefd6fbdf31c32b4c2127cd87caf9e85de98e4cf12a0c312d5a9ab43"
-    url = "https://github.com/staticfloat/linux-gcc-toolchains/releases/download/GCC-v9.1.0-aarch64-linux-gnu/GCC.v9.1.0.aarch64-linux-gnu-target_libc+glibc-target_os+linux-target_arch+aarch64.tar.gz"
+    sha256 = "c79b2da3b6c0866c00a6a2e3f4d04e845b33f1e45e42d27fe8c13a8a21e3ca6d"
+    url = "https://github.com/staticfloat/GCC_jll.jl/releases/download/v9.4.0/GCC-v9.4.0-x86_64-linux-gnu-target_libc+glibc-target_os+linux-target_arch+aarch64.tar.gz"
+[[GCC]]
+arch = "x86_64"
+git-tree-sha1 = "a5337b4b86b9e8c602849a534881f1b3414431f6"
+libc = "glibc"
+os = "linux"
+target_arch = "armv6l"
+target_call_abi = "eabihf"
+target_libc = "glibc"
+target_os = "linux"
+
+    [[GCC.download]]
+    sha256 = "365cc255c95420b5b45160e60dc6d343afe1acc4718bff2ac390cd4b703c905e"
+    url = "https://github.com/staticfloat/GCC_jll.jl/releases/download/v9.4.0/GCC-v9.4.0-x86_64-linux-gnu-target_libc+glibc-target_os+linux-target_call_abi+eabihf-target_arch+armv6l.tar.gz"
+[[GCC]]
+arch = "aarch64"
+git-tree-sha1 = "bbebd46bf6e0198563d0a40352929bedc58f0893"
+libc = "glibc"
+os = "linux"
+target_arch = "armv6l"
+target_call_abi = "eabihf"
+target_libc = "glibc"
+target_os = "linux"
+
+    [[GCC.download]]
+    sha256 = "a2a5ff1ac32451b0e4d69db17d0fb1f7ca05ea47b1ff19657fb4ca2a45bc86c7"
+    url = "https://github.com/staticfloat/GCC_jll.jl/releases/download/v9.4.0/GCC-v9.4.0-aarch64-linux-gnu-target_libc+glibc-target_os+linux-target_call_abi+eabihf-target_arch+armv6l.tar.gz"
+[[GCC]]
+arch = "x86_64"
+git-tree-sha1 = "31fd6e6e49e51c194a8767a694135a0483233565"
+libc = "glibc"
+os = "linux"
+target_arch = "armv7l"
+target_call_abi = "eabihf"
+target_libc = "glibc"
+target_os = "linux"
+
+    [[GCC.download]]
+    sha256 = "422a28953bee9ec96a9e567e2a13a2bd4477cf41610f7374d31df481dcdc9853"
+    url = "https://github.com/staticfloat/GCC_jll.jl/releases/download/v9.4.0/GCC-v9.4.0-x86_64-linux-gnu-target_libc+glibc-target_os+linux-target_call_abi+eabihf-target_arch+armv7l.tar.gz"
+[[GCC]]
+arch = "aarch64"
+git-tree-sha1 = "9ee96431f2aa9d34b81e1f111855b18ca4a302ed"
+libc = "glibc"
+os = "linux"
+target_arch = "armv7l"
+target_call_abi = "eabihf"
+target_libc = "glibc"
+target_os = "linux"
+
+    [[GCC.download]]
+    sha256 = "701fcbca2b1a20e778c25ba896ba8455c76adfaf96e0bf84cde6e8e07cec0d8c"
+    url = "https://github.com/staticfloat/GCC_jll.jl/releases/download/v9.4.0/GCC-v9.4.0-aarch64-linux-gnu-target_libc+glibc-target_os+linux-target_call_abi+eabihf-target_arch+armv7l.tar.gz"
+[[GCC]]
+arch = "x86_64"
+git-tree-sha1 = "deb3d1665eb79f9267bdca105e717562b2e9ccb0"
+libc = "glibc"
+os = "linux"
+target_arch = "powerpc64le"
+target_libc = "glibc"
+target_os = "linux"
+
+    [[GCC.download]]
+    sha256 = "b0f32f28a04b3b7ce8f7953ecf091f4448b095c94d69752a3967ef0cfacfd599"
+    url = "https://github.com/staticfloat/GCC_jll.jl/releases/download/v9.4.0/GCC-v9.4.0-x86_64-linux-gnu-target_libc+glibc-target_os+linux-target_arch+powerpc64le.tar.gz"
+[[GCC]]
+arch = "aarch64"
+git-tree-sha1 = "bf08f4e99f119f88f970eef5897c12188e74d6f5"
+libc = "glibc"
+os = "linux"
+target_arch = "powerpc64le"
+target_libc = "glibc"
+target_os = "linux"
+
+    [[GCC.download]]
+    sha256 = "b6c9c36a26e625489d16a4018b7a225f9c0e75c4c14f96c4bb43ce257d3d9b17"
+    url = "https://github.com/staticfloat/GCC_jll.jl/releases/download/v9.4.0/GCC-v9.4.0-aarch64-linux-gnu-target_libc+glibc-target_os+linux-target_arch+powerpc64le.tar.gz"
+[[GCC]]
+arch = "x86_64"
+git-tree-sha1 = "b6ff9eb5d9f2306669e14cf8a208d9d2d72b2971"
+libc = "glibc"
+os = "linux"
+target_arch = "x86_64"
+target_libc = "musl"
+target_os = "linux"
+
+    [[GCC.download]]
+    sha256 = "08bbd2d0a3df815e739364d466b66c2ff7321f67a24752191514ce3523040c03"
+    url = "https://github.com/staticfloat/GCC_jll.jl/releases/download/v9.4.0/GCC-v9.4.0-x86_64-linux-gnu-target_libc+musl-target_os+linux-target_arch+x86_64.tar.gz"
+[[GCC]]
+arch = "aarch64"
+git-tree-sha1 = "d36c56c2b675138d40b01ddd8321f021f7b6c5a7"
+libc = "glibc"
+os = "linux"
+target_arch = "x86_64"
+target_libc = "musl"
+target_os = "linux"
+
+    [[GCC.download]]
+    sha256 = "f6a6500e74bf587ec683485bcf7a5a162bf1c0cffb6236949e703cefde1db2a2"
+    url = "https://github.com/staticfloat/GCC_jll.jl/releases/download/v9.4.0/GCC-v9.4.0-aarch64-linux-gnu-target_libc+musl-target_os+linux-target_arch+x86_64.tar.gz"
+[[GCC]]
+arch = "x86_64"
+git-tree-sha1 = "c2cf81e4d5fe79c4b4ee230820daa16eacb71265"
+libc = "glibc"
+os = "linux"
+target_arch = "i686"
+target_libc = "musl"
+target_os = "linux"
+
+    [[GCC.download]]
+    sha256 = "bdc6c1746f990425a0e5142c30f151f4d95850432c62430b9c130ed6451ec2a9"
+    url = "https://github.com/staticfloat/GCC_jll.jl/releases/download/v9.4.0/GCC-v9.4.0-x86_64-linux-gnu-target_libc+musl-target_os+linux-target_arch+i686.tar.gz"
+[[GCC]]
+arch = "aarch64"
+git-tree-sha1 = "c41af6071137054a0883580efacde59514df9c45"
+libc = "glibc"
+os = "linux"
+target_arch = "i686"
+target_libc = "musl"
+target_os = "linux"
+
+    [[GCC.download]]
+    sha256 = "c5364cf991702c4c48975629ea33dd27122deeb86436d3529d5c7e00cd453ad0"
+    url = "https://github.com/staticfloat/GCC_jll.jl/releases/download/v9.4.0/GCC-v9.4.0-aarch64-linux-gnu-target_libc+musl-target_os+linux-target_arch+i686.tar.gz"
+[[GCC]]
+arch = "x86_64"
+git-tree-sha1 = "12a4b3f4e176bdf53e7bee4added6d7889f139af"
+libc = "glibc"
+os = "linux"
+target_arch = "aarch64"
+target_libc = "musl"
+target_os = "linux"
+
+    [[GCC.download]]
+    sha256 = "a7a4d51989d001a5c47fcc0e1f07cf491e18ba47c8acce3cd69ad99eab7f815c"
+    url = "https://github.com/staticfloat/GCC_jll.jl/releases/download/v9.4.0/GCC-v9.4.0-x86_64-linux-gnu-target_libc+musl-target_os+linux-target_arch+aarch64.tar.gz"
+[[GCC]]
+arch = "aarch64"
+git-tree-sha1 = "7158fbe24950dd940e133c02819d30c6ba1a4606"
+libc = "glibc"
+os = "linux"
+target_arch = "aarch64"
+target_libc = "musl"
+target_os = "linux"
+
+    [[GCC.download]]
+    sha256 = "5e183b043d6486f116906463e2dc420c17759b3360252b8508a1d08e14a17ba7"
+    url = "https://github.com/staticfloat/GCC_jll.jl/releases/download/v9.4.0/GCC-v9.4.0-aarch64-linux-gnu-target_libc+musl-target_os+linux-target_arch+aarch64.tar.gz"
+[[GCC]]
+arch = "x86_64"
+git-tree-sha1 = "ab6b2766ff6538a74316bcfd06a80e24fac25244"
+libc = "glibc"
+os = "linux"
+target_arch = "armv6l"
+target_call_abi = "eabihf"
+target_libc = "musl"
+target_os = "linux"
+
+    [[GCC.download]]
+    sha256 = "6fda1a6ae3e67281a71690a210734ce325d546bca09677b7e0ff8e60bcf7bbcc"
+    url = "https://github.com/staticfloat/GCC_jll.jl/releases/download/v9.4.0/GCC-v9.4.0-x86_64-linux-gnu-target_libc+musl-target_os+linux-target_call_abi+eabihf-target_arch+armv6l.tar.gz"
+[[GCC]]
+arch = "aarch64"
+git-tree-sha1 = "6f5b69bb15b262921a61fce2963a8fd53fa0da1b"
+libc = "glibc"
+os = "linux"
+target_arch = "armv6l"
+target_call_abi = "eabihf"
+target_libc = "musl"
+target_os = "linux"
+
+    [[GCC.download]]
+    sha256 = "7b1cebbd60875166a39792a97ec994507ae44bc77bdfbbb6fbd1b30bf5e0ed8f"
+    url = "https://github.com/staticfloat/GCC_jll.jl/releases/download/v9.4.0/GCC-v9.4.0-aarch64-linux-gnu-target_libc+musl-target_os+linux-target_call_abi+eabihf-target_arch+armv6l.tar.gz"
+[[GCC]]
+arch = "x86_64"
+git-tree-sha1 = "10bd1ef7e34eefff34071b4dafdd595a672448c0"
+libc = "glibc"
+os = "linux"
+target_arch = "armv7l"
+target_call_abi = "eabihf"
+target_libc = "musl"
+target_os = "linux"
+
+    [[GCC.download]]
+    sha256 = "5dd6fbbe8678808f92fbfb23b264a2069fe2d04b005c0303ea5f0f1641980d1e"
+    url = "https://github.com/staticfloat/GCC_jll.jl/releases/download/v9.4.0/GCC-v9.4.0-x86_64-linux-gnu-target_libc+musl-target_os+linux-target_call_abi+eabihf-target_arch+armv7l.tar.gz"
+[[GCC]]
+arch = "aarch64"
+git-tree-sha1 = "e3d5d200b8573a0b172cc2a661a197c49509a285"
+libc = "glibc"
+os = "linux"
+target_arch = "armv7l"
+target_call_abi = "eabihf"
+target_libc = "musl"
+target_os = "linux"
+
+    [[GCC.download]]
+    sha256 = "5d33fc98a6e2908b0d65d45c4d742c57f87d0986e6e1c860f14d7518d0e319cd"
+    url = "https://github.com/staticfloat/GCC_jll.jl/releases/download/v9.4.0/GCC-v9.4.0-aarch64-linux-gnu-target_libc+musl-target_os+linux-target_call_abi+eabihf-target_arch+armv7l.tar.gz"
+[[GCC]]
+arch = "x86_64"
+git-tree-sha1 = "bdef7f3620f491e307fc73b3c9ae5be08af70764"
+libc = "glibc"
+os = "linux"
+target_arch = "x86_64"
+target_os = "windows"
+
+    [[GCC.download]]
+    sha256 = "5854334fdcb55fab7b8e94815e42254e65a39b205b99571adb84b5da983a511f"
+    url = "https://github.com/staticfloat/GCC_jll.jl/releases/download/v9.4.0/GCC-v9.4.0-x86_64-linux-gnu-target_os+windows-target_arch+x86_64.tar.gz"
+[[GCC]]
+arch = "aarch64"
+git-tree-sha1 = "61d3bdb4c02340befaa77dd25db31e7493558fe2"
+libc = "glibc"
+os = "linux"
+target_arch = "x86_64"
+target_os = "windows"
+
+    [[GCC.download]]
+    sha256 = "dc38a8ca2e98a2104a70f9b9dfbfec6f4d595b59d5573b8a7cca2609a08fe9ee"
+    url = "https://github.com/staticfloat/GCC_jll.jl/releases/download/v9.4.0/GCC-v9.4.0-aarch64-linux-gnu-target_os+windows-target_arch+x86_64.tar.gz"
+[[GCC]]
+arch = "x86_64"
+git-tree-sha1 = "e99a2f72f2f769a3de18dd4f1a1e409ce132fdc6"
+libc = "glibc"
+os = "linux"
+target_arch = "i686"
+target_os = "windows"
+
+    [[GCC.download]]
+    sha256 = "b28aefdd30b550013bb0c028e82b8f72c9dc5759081165cf227277903728d0d3"
+    url = "https://github.com/staticfloat/GCC_jll.jl/releases/download/v9.4.0/GCC-v9.4.0-x86_64-linux-gnu-target_os+windows-target_arch+i686.tar.gz"
+[[GCC]]
+arch = "aarch64"
+git-tree-sha1 = "4d2b9405710468de0bb5c846eb194dfde8e71475"
+libc = "glibc"
+os = "linux"
+target_arch = "i686"
+target_os = "windows"
+
+    [[GCC.download]]
+    sha256 = "80eeaa0c3596efdf74644ce6b2aca29bfe20d45da7612ba903b7e9e677a87533"
+    url = "https://github.com/staticfloat/GCC_jll.jl/releases/download/v9.4.0/GCC-v9.4.0-aarch64-linux-gnu-target_os+windows-target_arch+i686.tar.gz"
+[[GCC]]
+arch = "x86_64"
+git-tree-sha1 = "d40bc86d0e613342a5f64963f9c581b2f9dcb7f2"
+libc = "glibc"
+os = "linux"
+target_arch = "x86_64"
+target_libc = "glibc"
+target_os = "linux"
+
+    [[GCC.download]]
+    sha256 = "fa279ffc235da10079ff60d89470f6bc8aab3233d6a6452938608ea1e10aeaab"
+    url = "https://github.com/staticfloat/GCC_jll.jl/releases/download/v9.4.0/GCC-v9.4.0-x86_64-linux-gnu-target_libc+glibc-target_os+linux-target_arch+x86_64.tar.gz"
+[[GCC]]
+arch = "i686"
+git-tree-sha1 = "e53ee606b6214e1dacd86fd9b59a8c4f43b9f4e1"
+libc = "glibc"
+os = "linux"
+target_arch = "i686"
+target_libc = "glibc"
+target_os = "linux"
+
+    [[GCC.download]]
+    sha256 = "7030adb0d3a8175145d04751439f7d3d9dbd5e04d30fa7645b1293e2094ca683"
+    url = "https://github.com/staticfloat/GCC_jll.jl/releases/download/v9.4.0/GCC-v9.4.0-i686-linux-gnu-target_libc+glibc-target_os+linux-target_arch+i686.tar.gz"
+[[GCC]]
+arch = "aarch64"
+git-tree-sha1 = "0eac575542f366b0cb8dce5d2ca3e6bfc49586f2"
+libc = "glibc"
+os = "linux"
+target_arch = "aarch64"
+target_libc = "glibc"
+target_os = "linux"
+
+    [[GCC.download]]
+    sha256 = "9cbce512b862aff8416bec4e061851d8cda770d3460ed2a820bfc98baa134461"
+    url = "https://github.com/staticfloat/GCC_jll.jl/releases/download/v9.4.0/GCC-v9.4.0-aarch64-linux-gnu-target_libc+glibc-target_os+linux-target_arch+aarch64.tar.gz"
+[[GCC]]
+arch = "armv6l"
+call_abi = "eabihf"
+git-tree-sha1 = "1eb23e8daa7cc5ade082efa2ca1947fd65992d95"
+libc = "glibc"
+os = "linux"
+target_arch = "armv6l"
+target_call_abi = "eabihf"
+target_libc = "glibc"
+target_os = "linux"
+
+    [[GCC.download]]
+    sha256 = "66a2353a7fcbf9e267b8c0b3b53a782e93a2fe292f479974779c3600724c1a7d"
+    url = "https://github.com/staticfloat/GCC_jll.jl/releases/download/v9.4.0/GCC-v9.4.0-armv6l-linux-gnueabihf-target_libc+glibc-target_os+linux-target_call_abi+eabihf-target_arch+armv6l.tar.gz"
+[[GCC]]
+arch = "armv7l"
+call_abi = "eabihf"
+git-tree-sha1 = "7160ba7595f8e3abb7ec69bfc1a8a601c8a5930d"
+libc = "glibc"
+os = "linux"
+target_arch = "armv7l"
+target_call_abi = "eabihf"
+target_libc = "glibc"
+target_os = "linux"
+
+    [[GCC.download]]
+    sha256 = "0d585cea51732f4d71d8be6e8f47507531fcfae12fb60f9eeea130fce95a1c6c"
+    url = "https://github.com/staticfloat/GCC_jll.jl/releases/download/v9.4.0/GCC-v9.4.0-armv7l-linux-gnueabihf-target_libc+glibc-target_os+linux-target_call_abi+eabihf-target_arch+armv7l.tar.gz"
+[[GCC]]
+arch = "powerpc64le"
+git-tree-sha1 = "b10be7b4349546a1327cdaf49e8239c6c4c01ed4"
+libc = "glibc"
+os = "linux"
+target_arch = "powerpc64le"
+target_libc = "glibc"
+target_os = "linux"
+
+    [[GCC.download]]
+    sha256 = "12a04c92fad9ca48402c4d381b1d32c9653f6c29e0544b857e138137ab228a75"
+    url = "https://github.com/staticfloat/GCC_jll.jl/releases/download/v9.4.0/GCC-v9.4.0-powerpc64le-linux-gnu-target_libc+glibc-target_os+linux-target_arch+powerpc64le.tar.gz"
+[[GCC]]
+arch = "x86_64"
+git-tree-sha1 = "2e25af7155208269cadc8c69f340457499fcb76e"
+libc = "musl"
+os = "linux"
+target_arch = "x86_64"
+target_libc = "musl"
+target_os = "linux"
+
+    [[GCC.download]]
+    sha256 = "554d3b972e653c35ee7041f4cb11f482b7588f38fb5d6466cd5efcee99e624f0"
+    url = "https://github.com/staticfloat/GCC_jll.jl/releases/download/v9.4.0/GCC-v9.4.0-x86_64-linux-musl-target_libc+musl-target_os+linux-target_arch+x86_64.tar.gz"
+[[GCC]]
+arch = "i686"
+git-tree-sha1 = "152a1ca65ff8337acf5c66b7aa627f874057acc8"
+libc = "musl"
+os = "linux"
+target_arch = "i686"
+target_libc = "musl"
+target_os = "linux"
+
+    [[GCC.download]]
+    sha256 = "2b7c56c4c38d950baed959bb6665319b07aedefb6930542aad99783dae883e21"
+    url = "https://github.com/staticfloat/GCC_jll.jl/releases/download/v9.4.0/GCC-v9.4.0-i686-linux-musl-target_libc+musl-target_os+linux-target_arch+i686.tar.gz"
+[[GCC]]
+arch = "aarch64"
+git-tree-sha1 = "9b131dfee40d19964443ca7db6acc3a55d13eb48"
+libc = "musl"
+os = "linux"
+target_arch = "aarch64"
+target_libc = "musl"
+target_os = "linux"
+
+    [[GCC.download]]
+    sha256 = "17fb6e9fbc488a46944a38d16c3b1c183ec3bd1ade87c221aefb455979d1690c"
+    url = "https://github.com/staticfloat/GCC_jll.jl/releases/download/v9.4.0/GCC-v9.4.0-aarch64-linux-musl-target_libc+musl-target_os+linux-target_arch+aarch64.tar.gz"
+[[GCC]]
+arch = "armv6l"
+call_abi = "eabihf"
+git-tree-sha1 = "bd5641dda207cb2c8fe031b8d33f8a0d439a1d50"
+libc = "musl"
+os = "linux"
+target_arch = "armv6l"
+target_call_abi = "eabihf"
+target_libc = "musl"
+target_os = "linux"
+
+    [[GCC.download]]
+    sha256 = "6f7bec008b140b0104723251e86076ec1bef750fd2cebc3fd377bbbac3c97fc7"
+    url = "https://github.com/staticfloat/GCC_jll.jl/releases/download/v9.4.0/GCC-v9.4.0-armv6l-linux-musleabihf-target_libc+musl-target_os+linux-target_call_abi+eabihf-target_arch+armv6l.tar.gz"
+[[GCC]]
+arch = "armv7l"
+call_abi = "eabihf"
+git-tree-sha1 = "2ac8c65ac39190fad5221e2060853f7b03ffdfe8"
+libc = "musl"
+os = "linux"
+target_arch = "armv7l"
+target_call_abi = "eabihf"
+target_libc = "musl"
+target_os = "linux"
+
+    [[GCC.download]]
+    sha256 = "814a7b5c0b14fefc372fb55a52d23d80145441e18fc986d65e529596478cd387"
+    url = "https://github.com/staticfloat/GCC_jll.jl/releases/download/v9.4.0/GCC-v9.4.0-armv7l-linux-musleabihf-target_libc+musl-target_os+linux-target_call_abi+eabihf-target_arch+armv7l.tar.gz"
+[[GCC]]
+arch = "x86_64"
+git-tree-sha1 = "3c386edeb8aa2bd6595cf6aa96e849654c803f28"
+os = "windows"
+target_arch = "x86_64"
+target_os = "windows"
+
+    [[GCC.download]]
+    sha256 = "12a77593cf23163866d37e2dc4c47bf1570eeee5815645c8b70789c4ebe7495b"
+    url = "https://github.com/staticfloat/GCC_jll.jl/releases/download/v9.4.0/GCC-v9.4.0-x86_64-w64-mingw32-target_os+windows-target_arch+x86_64.tar.gz"
+[[GCC]]
+arch = "i686"
+git-tree-sha1 = "beef086e378b7ed75f9f0ed55575fd613476b7e6"
+os = "windows"
+target_arch = "i686"
+target_os = "windows"
+
+    [[GCC.download]]
+    sha256 = "e57463a5a92567cffa8b08c873a114f8c07021641661ef60f58886c4a3246928"
+    url = "https://github.com/staticfloat/GCC_jll.jl/releases/download/v9.4.0/GCC-v9.4.0-i686-w64-mingw32-target_os+windows-target_arch+i686.tar.gz"
+
+[[GCC-build_log]]
+arch = "aarch64"
+git-tree-sha1 = "12728734d5927b67c256967bc05078d6ae6f354b"
+lazy = true
+libc = "glibc"
+os = "linux"
+target_arch = "x86_64"
+target_libc = "glibc"
+target_os = "linux"
+
+    [[GCC-build_log.download]]
+    sha256 = "22c78acee369e9398cec083c0dc6b9b0b6927d564b8152a644ad7636f432d615"
+    url = "https://github.com/staticfloat/GCC_jll.jl/releases/download/v9.4.0/GCC-build_log-v9.4.0-aarch64-linux-gnu-target_libc+glibc-target_os+linux-target_arch+x86_64.tar.gz"
+[[GCC-build_log]]
+arch = "x86_64"
+git-tree-sha1 = "86d9d10b8d8f755d3f0649c3edd07f20fca88085"
+lazy = true
+libc = "glibc"
+os = "linux"
+target_arch = "i686"
+target_libc = "glibc"
+target_os = "linux"
+
+    [[GCC-build_log.download]]
+    sha256 = "bba8e9369a4beea419fc8fdf227c225fb361019cf1a6605ef5f126ae705e4b84"
+    url = "https://github.com/staticfloat/GCC_jll.jl/releases/download/v9.4.0/GCC-build_log-v9.4.0-x86_64-linux-gnu-target_libc+glibc-target_os+linux-target_arch+i686.tar.gz"
+[[GCC-build_log]]
+arch = "aarch64"
+git-tree-sha1 = "1e99069fd0f21fec84a80af98f92711a0bb717b8"
+lazy = true
+libc = "glibc"
+os = "linux"
+target_arch = "i686"
+target_libc = "glibc"
+target_os = "linux"
+
+    [[GCC-build_log.download]]
+    sha256 = "e4f7adec71a1abbcd2d667655e474b6043283e6afbfd2d3390f4ed9e62a8e2c0"
+    url = "https://github.com/staticfloat/GCC_jll.jl/releases/download/v9.4.0/GCC-build_log-v9.4.0-aarch64-linux-gnu-target_libc+glibc-target_os+linux-target_arch+i686.tar.gz"
+[[GCC-build_log]]
+arch = "x86_64"
+git-tree-sha1 = "f1b698dc420ce460c12ebf11ef383cb7f27cd84d"
+lazy = true
+libc = "glibc"
+os = "linux"
+target_arch = "aarch64"
+target_libc = "glibc"
+target_os = "linux"
+
+    [[GCC-build_log.download]]
+    sha256 = "c459078023b4384dc423a53d11c053b41b8edd8e5e243762edb124670074d47d"
+    url = "https://github.com/staticfloat/GCC_jll.jl/releases/download/v9.4.0/GCC-build_log-v9.4.0-x86_64-linux-gnu-target_libc+glibc-target_os+linux-target_arch+aarch64.tar.gz"
+[[GCC-build_log]]
+arch = "x86_64"
+git-tree-sha1 = "42374a0612063cc9d4e04e6f42730a2c528f5737"
+lazy = true
+libc = "glibc"
+os = "linux"
+target_arch = "armv6l"
+target_call_abi = "eabihf"
+target_libc = "glibc"
+target_os = "linux"
+
+    [[GCC-build_log.download]]
+    sha256 = "7291a6c949a317e427e587633512cca1c98575f81a81de58829d16900499d249"
+    url = "https://github.com/staticfloat/GCC_jll.jl/releases/download/v9.4.0/GCC-build_log-v9.4.0-x86_64-linux-gnu-target_libc+glibc-target_os+linux-target_call_abi+eabihf-target_arch+armv6l.tar.gz"
+[[GCC-build_log]]
+arch = "aarch64"
+git-tree-sha1 = "2d8e558834abbae19b11e2f4697e3665e851ac31"
+lazy = true
+libc = "glibc"
+os = "linux"
+target_arch = "armv6l"
+target_call_abi = "eabihf"
+target_libc = "glibc"
+target_os = "linux"
+
+    [[GCC-build_log.download]]
+    sha256 = "2c76d553789abbc0ed227612c14109d0f28027234ced39874c2b219a143381ab"
+    url = "https://github.com/staticfloat/GCC_jll.jl/releases/download/v9.4.0/GCC-build_log-v9.4.0-aarch64-linux-gnu-target_libc+glibc-target_os+linux-target_call_abi+eabihf-target_arch+armv6l.tar.gz"
+[[GCC-build_log]]
+arch = "x86_64"
+git-tree-sha1 = "b67c28246c55882f02c87ffcfb72b016b893b753"
+lazy = true
+libc = "glibc"
+os = "linux"
+target_arch = "armv7l"
+target_call_abi = "eabihf"
+target_libc = "glibc"
+target_os = "linux"
+
+    [[GCC-build_log.download]]
+    sha256 = "5de1c4c4fb0816faa6a0a8c85a868311a81900ceb533bf096e076e0736107aa7"
+    url = "https://github.com/staticfloat/GCC_jll.jl/releases/download/v9.4.0/GCC-build_log-v9.4.0-x86_64-linux-gnu-target_libc+glibc-target_os+linux-target_call_abi+eabihf-target_arch+armv7l.tar.gz"
+[[GCC-build_log]]
+arch = "aarch64"
+git-tree-sha1 = "39b5870ebb80185dd6a6865276ed8feb3b9c81d9"
+lazy = true
+libc = "glibc"
+os = "linux"
+target_arch = "armv7l"
+target_call_abi = "eabihf"
+target_libc = "glibc"
+target_os = "linux"
+
+    [[GCC-build_log.download]]
+    sha256 = "8ab99ca133cf8688d66b931552dc58c716c6eb0455a0afd0d5681ef07c046714"
+    url = "https://github.com/staticfloat/GCC_jll.jl/releases/download/v9.4.0/GCC-build_log-v9.4.0-aarch64-linux-gnu-target_libc+glibc-target_os+linux-target_call_abi+eabihf-target_arch+armv7l.tar.gz"
+[[GCC-build_log]]
+arch = "x86_64"
+git-tree-sha1 = "baafd086e2baefe782818e19253efeeb9f181b61"
+lazy = true
+libc = "glibc"
+os = "linux"
+target_arch = "powerpc64le"
+target_libc = "glibc"
+target_os = "linux"
+
+    [[GCC-build_log.download]]
+    sha256 = "d170fd93e26f05b826c97c45f886a9c4cabb2fd2b72849a039de8a891146796f"
+    url = "https://github.com/staticfloat/GCC_jll.jl/releases/download/v9.4.0/GCC-build_log-v9.4.0-x86_64-linux-gnu-target_libc+glibc-target_os+linux-target_arch+powerpc64le.tar.gz"
+[[GCC-build_log]]
+arch = "aarch64"
+git-tree-sha1 = "8230e9dc628c3dcf6b75526b63f4ded21c9aee2b"
+lazy = true
+libc = "glibc"
+os = "linux"
+target_arch = "powerpc64le"
+target_libc = "glibc"
+target_os = "linux"
+
+    [[GCC-build_log.download]]
+    sha256 = "78cb9221259d4b5c5af872cf6b2e3ea1b97df4cb2956285bf63b12a767037557"
+    url = "https://github.com/staticfloat/GCC_jll.jl/releases/download/v9.4.0/GCC-build_log-v9.4.0-aarch64-linux-gnu-target_libc+glibc-target_os+linux-target_arch+powerpc64le.tar.gz"
+[[GCC-build_log]]
+arch = "x86_64"
+git-tree-sha1 = "2ac6b9bf1f359a4f55c99232ff696ab642d18bfa"
+lazy = true
+libc = "glibc"
+os = "linux"
+target_arch = "x86_64"
+target_libc = "musl"
+target_os = "linux"
+
+    [[GCC-build_log.download]]
+    sha256 = "62fbc9202a23b323663c64294be7d5da2b75adb1a6e6ab584f422fb563049441"
+    url = "https://github.com/staticfloat/GCC_jll.jl/releases/download/v9.4.0/GCC-build_log-v9.4.0-x86_64-linux-gnu-target_libc+musl-target_os+linux-target_arch+x86_64.tar.gz"
+[[GCC-build_log]]
+arch = "aarch64"
+git-tree-sha1 = "9c614a2267aafb2994d05adb3e2fce787700ff94"
+lazy = true
+libc = "glibc"
+os = "linux"
+target_arch = "x86_64"
+target_libc = "musl"
+target_os = "linux"
+
+    [[GCC-build_log.download]]
+    sha256 = "ea177f06ba453b097de04ed85d2c83c531c8629c5c0cd4b4d207aca347cde303"
+    url = "https://github.com/staticfloat/GCC_jll.jl/releases/download/v9.4.0/GCC-build_log-v9.4.0-aarch64-linux-gnu-target_libc+musl-target_os+linux-target_arch+x86_64.tar.gz"
+[[GCC-build_log]]
+arch = "x86_64"
+git-tree-sha1 = "262e3a86bf3872c2874d779d392328f07e9776b5"
+lazy = true
+libc = "glibc"
+os = "linux"
+target_arch = "i686"
+target_libc = "musl"
+target_os = "linux"
+
+    [[GCC-build_log.download]]
+    sha256 = "23913d773c5eea7a50aa44b5e78c0e7c469401065495dece894e2026768685b3"
+    url = "https://github.com/staticfloat/GCC_jll.jl/releases/download/v9.4.0/GCC-build_log-v9.4.0-x86_64-linux-gnu-target_libc+musl-target_os+linux-target_arch+i686.tar.gz"
+[[GCC-build_log]]
+arch = "aarch64"
+git-tree-sha1 = "d2ffb8deaa2091784e6d2cdb64787da7bebac125"
+lazy = true
+libc = "glibc"
+os = "linux"
+target_arch = "i686"
+target_libc = "musl"
+target_os = "linux"
+
+    [[GCC-build_log.download]]
+    sha256 = "637642f17a07adb433be9cbcabd6de6d80379f01d51c2dae2ad4ab5ac9d0fac3"
+    url = "https://github.com/staticfloat/GCC_jll.jl/releases/download/v9.4.0/GCC-build_log-v9.4.0-aarch64-linux-gnu-target_libc+musl-target_os+linux-target_arch+i686.tar.gz"
+[[GCC-build_log]]
+arch = "x86_64"
+git-tree-sha1 = "194f28ddf636ac8c3bd8de5b591fc1214ce3eded"
+lazy = true
+libc = "glibc"
+os = "linux"
+target_arch = "aarch64"
+target_libc = "musl"
+target_os = "linux"
+
+    [[GCC-build_log.download]]
+    sha256 = "217c56525f75794f1e1fb60f3e392d9e7723965a3bb52195c37dd27a466da616"
+    url = "https://github.com/staticfloat/GCC_jll.jl/releases/download/v9.4.0/GCC-build_log-v9.4.0-x86_64-linux-gnu-target_libc+musl-target_os+linux-target_arch+aarch64.tar.gz"
+[[GCC-build_log]]
+arch = "aarch64"
+git-tree-sha1 = "e13f06516f672df1859fb9e422b43ed0ba93850e"
+lazy = true
+libc = "glibc"
+os = "linux"
+target_arch = "aarch64"
+target_libc = "musl"
+target_os = "linux"
+
+    [[GCC-build_log.download]]
+    sha256 = "529b15b3023f3dbd83d0a2e0ac1c578116e30c12a83169ccba2827e77437caa0"
+    url = "https://github.com/staticfloat/GCC_jll.jl/releases/download/v9.4.0/GCC-build_log-v9.4.0-aarch64-linux-gnu-target_libc+musl-target_os+linux-target_arch+aarch64.tar.gz"
+[[GCC-build_log]]
+arch = "x86_64"
+git-tree-sha1 = "8b600c3c7e4ce2bb8f40acbb0aebf35ef5d913c7"
+lazy = true
+libc = "glibc"
+os = "linux"
+target_arch = "armv6l"
+target_call_abi = "eabihf"
+target_libc = "musl"
+target_os = "linux"
+
+    [[GCC-build_log.download]]
+    sha256 = "aedce122be2e2c010829bf7c77dccc501fc3f97bd0fdcb0e7d18ea61fbf2f21a"
+    url = "https://github.com/staticfloat/GCC_jll.jl/releases/download/v9.4.0/GCC-build_log-v9.4.0-x86_64-linux-gnu-target_libc+musl-target_os+linux-target_call_abi+eabihf-target_arch+armv6l.tar.gz"
+[[GCC-build_log]]
+arch = "aarch64"
+git-tree-sha1 = "993671f38db6ecf31814528540347595d329c21f"
+lazy = true
+libc = "glibc"
+os = "linux"
+target_arch = "armv6l"
+target_call_abi = "eabihf"
+target_libc = "musl"
+target_os = "linux"
+
+    [[GCC-build_log.download]]
+    sha256 = "fb640d0a31e606f23365a039e9614a6d95a95a1020c50db77e305e5fade18173"
+    url = "https://github.com/staticfloat/GCC_jll.jl/releases/download/v9.4.0/GCC-build_log-v9.4.0-aarch64-linux-gnu-target_libc+musl-target_os+linux-target_call_abi+eabihf-target_arch+armv6l.tar.gz"
+[[GCC-build_log]]
+arch = "x86_64"
+git-tree-sha1 = "22b52a8c9b3046986adb101e61794db689d9e29d"
+lazy = true
+libc = "glibc"
+os = "linux"
+target_arch = "armv7l"
+target_call_abi = "eabihf"
+target_libc = "musl"
+target_os = "linux"
+
+    [[GCC-build_log.download]]
+    sha256 = "8d8215b4e40f2da92c8ded6e919a8bb365de8dc4f9be788f2a785125c6288588"
+    url = "https://github.com/staticfloat/GCC_jll.jl/releases/download/v9.4.0/GCC-build_log-v9.4.0-x86_64-linux-gnu-target_libc+musl-target_os+linux-target_call_abi+eabihf-target_arch+armv7l.tar.gz"
+[[GCC-build_log]]
+arch = "aarch64"
+git-tree-sha1 = "902c348a8c3a856a0fa066a27a206861069c288a"
+lazy = true
+libc = "glibc"
+os = "linux"
+target_arch = "armv7l"
+target_call_abi = "eabihf"
+target_libc = "musl"
+target_os = "linux"
+
+    [[GCC-build_log.download]]
+    sha256 = "d012ba4f111a0f251b9c81b8832554c78a733220a0c6ac5706b8449f166fd9b2"
+    url = "https://github.com/staticfloat/GCC_jll.jl/releases/download/v9.4.0/GCC-build_log-v9.4.0-aarch64-linux-gnu-target_libc+musl-target_os+linux-target_call_abi+eabihf-target_arch+armv7l.tar.gz"
+[[GCC-build_log]]
+arch = "x86_64"
+git-tree-sha1 = "71fec1c64c56bc9d5b484d636c7fa53119f93dc1"
+lazy = true
+libc = "glibc"
+os = "linux"
+target_arch = "x86_64"
+target_os = "windows"
+
+    [[GCC-build_log.download]]
+    sha256 = "8ec37dd55643f0e086b6ba7f21f72ab51824134b2ac4e48d950babf6a4944447"
+    url = "https://github.com/staticfloat/GCC_jll.jl/releases/download/v9.4.0/GCC-build_log-v9.4.0-x86_64-linux-gnu-target_os+windows-target_arch+x86_64.tar.gz"
+[[GCC-build_log]]
+arch = "aarch64"
+git-tree-sha1 = "8dc61b6aa296345914411343f5b756c7ffcc2878"
+lazy = true
+libc = "glibc"
+os = "linux"
+target_arch = "x86_64"
+target_os = "windows"
+
+    [[GCC-build_log.download]]
+    sha256 = "03db15457e1ced8bc72235a8e7bd48c088c86710aba18609b64d3c39a43d0c38"
+    url = "https://github.com/staticfloat/GCC_jll.jl/releases/download/v9.4.0/GCC-build_log-v9.4.0-aarch64-linux-gnu-target_os+windows-target_arch+x86_64.tar.gz"
+[[GCC-build_log]]
+arch = "x86_64"
+git-tree-sha1 = "eebacc4249d3a6f7c26dfd0545aa368a8b1bc9c8"
+lazy = true
+libc = "glibc"
+os = "linux"
+target_arch = "i686"
+target_os = "windows"
+
+    [[GCC-build_log.download]]
+    sha256 = "bae6d31b47bb6f11bb0a02e3467b539b75676a1055db0d514be9accdbea4c738"
+    url = "https://github.com/staticfloat/GCC_jll.jl/releases/download/v9.4.0/GCC-build_log-v9.4.0-x86_64-linux-gnu-target_os+windows-target_arch+i686.tar.gz"
+[[GCC-build_log]]
+arch = "aarch64"
+git-tree-sha1 = "b13504b5b7d1a500e6e41839a95e365da824f26e"
+lazy = true
+libc = "glibc"
+os = "linux"
+target_arch = "i686"
+target_os = "windows"
+
+    [[GCC-build_log.download]]
+    sha256 = "29e5076fabb713a01e08ea336d0f4c8b02a3b8c537cb646ee6e87ff4a6e3ae65"
+    url = "https://github.com/staticfloat/GCC_jll.jl/releases/download/v9.4.0/GCC-build_log-v9.4.0-aarch64-linux-gnu-target_os+windows-target_arch+i686.tar.gz"
+[[GCC-build_log]]
+arch = "x86_64"
+git-tree-sha1 = "f016422cd60ee5c1a7e8d2c827500a1e1759406b"
+lazy = true
+libc = "glibc"
+os = "linux"
+target_arch = "x86_64"
+target_libc = "glibc"
+target_os = "linux"
+
+    [[GCC-build_log.download]]
+    sha256 = "233810db007306de8080b02fb6ccb14ddf1dba7e20344080770abdcd40650d93"
+    url = "https://github.com/staticfloat/GCC_jll.jl/releases/download/v9.4.0/GCC-build_log-v9.4.0-x86_64-linux-gnu-target_libc+glibc-target_os+linux-target_arch+x86_64.tar.gz"
+[[GCC-build_log]]
+arch = "i686"
+git-tree-sha1 = "3cd6a94eec68adb060a755034e799aab68020a8e"
+lazy = true
+libc = "glibc"
+os = "linux"
+target_arch = "i686"
+target_libc = "glibc"
+target_os = "linux"
+
+    [[GCC-build_log.download]]
+    sha256 = "571246f6ee2ed75ac11c97ce2135f2f475ebb7179847255ff108a2feadfcbc0c"
+    url = "https://github.com/staticfloat/GCC_jll.jl/releases/download/v9.4.0/GCC-build_log-v9.4.0-i686-linux-gnu-target_libc+glibc-target_os+linux-target_arch+i686.tar.gz"
+[[GCC-build_log]]
+arch = "aarch64"
+git-tree-sha1 = "816473eb3e2ebad16c050be1daebc40dd9b473de"
+lazy = true
+libc = "glibc"
+os = "linux"
+target_arch = "aarch64"
+target_libc = "glibc"
+target_os = "linux"
+
+    [[GCC-build_log.download]]
+    sha256 = "bdf7aa175775c8789f19e99ebac0c9d9d6f2bcc23e69ed5845d93b607774aa8c"
+    url = "https://github.com/staticfloat/GCC_jll.jl/releases/download/v9.4.0/GCC-build_log-v9.4.0-aarch64-linux-gnu-target_libc+glibc-target_os+linux-target_arch+aarch64.tar.gz"
+[[GCC-build_log]]
+arch = "armv6l"
+call_abi = "eabihf"
+git-tree-sha1 = "dd3efd43da791310c6fc1b051fd4596fa776f137"
+lazy = true
+libc = "glibc"
+os = "linux"
+target_arch = "armv6l"
+target_call_abi = "eabihf"
+target_libc = "glibc"
+target_os = "linux"
+
+    [[GCC-build_log.download]]
+    sha256 = "5e71861572247bf7785330777b8d24cce1e068165e8d7b812e3fdd31b91520d9"
+    url = "https://github.com/staticfloat/GCC_jll.jl/releases/download/v9.4.0/GCC-build_log-v9.4.0-armv6l-linux-gnueabihf-target_libc+glibc-target_os+linux-target_call_abi+eabihf-target_arch+armv6l.tar.gz"
+[[GCC-build_log]]
+arch = "armv7l"
+call_abi = "eabihf"
+git-tree-sha1 = "f0534543edc16e09b5d862532218a148a489e535"
+lazy = true
+libc = "glibc"
+os = "linux"
+target_arch = "armv7l"
+target_call_abi = "eabihf"
+target_libc = "glibc"
+target_os = "linux"
+
+    [[GCC-build_log.download]]
+    sha256 = "043e3b1a9100e5b1994eb1a1244976bf53b1a9024db151256ece5f196204d0ea"
+    url = "https://github.com/staticfloat/GCC_jll.jl/releases/download/v9.4.0/GCC-build_log-v9.4.0-armv7l-linux-gnueabihf-target_libc+glibc-target_os+linux-target_call_abi+eabihf-target_arch+armv7l.tar.gz"
+[[GCC-build_log]]
+arch = "powerpc64le"
+git-tree-sha1 = "797f5e2afa25c5b0dff1ec93dd59c704fae2e3b8"
+lazy = true
+libc = "glibc"
+os = "linux"
+target_arch = "powerpc64le"
+target_libc = "glibc"
+target_os = "linux"
+
+    [[GCC-build_log.download]]
+    sha256 = "d772866d542b2065b51c8c251ad7c3d2d0650aa3913a40d53f7356165f11ebc6"
+    url = "https://github.com/staticfloat/GCC_jll.jl/releases/download/v9.4.0/GCC-build_log-v9.4.0-powerpc64le-linux-gnu-target_libc+glibc-target_os+linux-target_arch+powerpc64le.tar.gz"
+[[GCC-build_log]]
+arch = "x86_64"
+git-tree-sha1 = "dfb1433173dc083f00f108d63eaac4081e7a740b"
+lazy = true
+libc = "musl"
+os = "linux"
+target_arch = "x86_64"
+target_libc = "musl"
+target_os = "linux"
+
+    [[GCC-build_log.download]]
+    sha256 = "d5b8fc2cfc19ffbc2597c7663a67d7b9f9fcd1b720056addeea6d1122c75923a"
+    url = "https://github.com/staticfloat/GCC_jll.jl/releases/download/v9.4.0/GCC-build_log-v9.4.0-x86_64-linux-musl-target_libc+musl-target_os+linux-target_arch+x86_64.tar.gz"
+[[GCC-build_log]]
+arch = "i686"
+git-tree-sha1 = "846a9ee330189235251f7d4933b64a072f12f478"
+lazy = true
+libc = "musl"
+os = "linux"
+target_arch = "i686"
+target_libc = "musl"
+target_os = "linux"
+
+    [[GCC-build_log.download]]
+    sha256 = "3f1d846b4b2028e04f54031a03d99ccc705cf322de95426b912dcc073c944e0e"
+    url = "https://github.com/staticfloat/GCC_jll.jl/releases/download/v9.4.0/GCC-build_log-v9.4.0-i686-linux-musl-target_libc+musl-target_os+linux-target_arch+i686.tar.gz"
+[[GCC-build_log]]
+arch = "aarch64"
+git-tree-sha1 = "c1b6a27615c7b74ac9500261172654542a49db81"
+lazy = true
+libc = "musl"
+os = "linux"
+target_arch = "aarch64"
+target_libc = "musl"
+target_os = "linux"
+
+    [[GCC-build_log.download]]
+    sha256 = "36ce14a4cc67d1fee92a7ce2a04f08a15b8b1425a2c921ae73e855cb82d59c95"
+    url = "https://github.com/staticfloat/GCC_jll.jl/releases/download/v9.4.0/GCC-build_log-v9.4.0-aarch64-linux-musl-target_libc+musl-target_os+linux-target_arch+aarch64.tar.gz"
+[[GCC-build_log]]
+arch = "armv6l"
+call_abi = "eabihf"
+git-tree-sha1 = "14614ccc52fc61b17ea7039e45ff0bac99dc3a2d"
+lazy = true
+libc = "musl"
+os = "linux"
+target_arch = "armv6l"
+target_call_abi = "eabihf"
+target_libc = "musl"
+target_os = "linux"
+
+    [[GCC-build_log.download]]
+    sha256 = "b6a7076decb8d10f97e2c47d76f115c7e2580db36922a02bee981675c77ef3b7"
+    url = "https://github.com/staticfloat/GCC_jll.jl/releases/download/v9.4.0/GCC-build_log-v9.4.0-armv6l-linux-musleabihf-target_libc+musl-target_os+linux-target_call_abi+eabihf-target_arch+armv6l.tar.gz"
+[[GCC-build_log]]
+arch = "armv7l"
+call_abi = "eabihf"
+git-tree-sha1 = "baca1fefe62ba975a52d8726fe3588f439109aec"
+lazy = true
+libc = "musl"
+os = "linux"
+target_arch = "armv7l"
+target_call_abi = "eabihf"
+target_libc = "musl"
+target_os = "linux"
+
+    [[GCC-build_log.download]]
+    sha256 = "eb1c267d47de645ce16fc1b4dd4026b68fbb77252cc5569f930ca1d69e262bea"
+    url = "https://github.com/staticfloat/GCC_jll.jl/releases/download/v9.4.0/GCC-build_log-v9.4.0-armv7l-linux-musleabihf-target_libc+musl-target_os+linux-target_call_abi+eabihf-target_arch+armv7l.tar.gz"
+[[GCC-build_log]]
+arch = "x86_64"
+git-tree-sha1 = "9292cbd031482501355cef116a6483b3af139146"
+lazy = true
+os = "windows"
+target_arch = "x86_64"
+target_os = "windows"
+
+    [[GCC-build_log.download]]
+    sha256 = "1b3af72793e0e10753e8a7f315b5255ff2e092e1ce95bbc285aca5d3afeb5f52"
+    url = "https://github.com/staticfloat/GCC_jll.jl/releases/download/v9.4.0/GCC-build_log-v9.4.0-x86_64-w64-mingw32-target_os+windows-target_arch+x86_64.tar.gz"
+[[GCC-build_log]]
+arch = "i686"
+git-tree-sha1 = "96a9cd7896fbdfb5c0a79ac8a086ec2eda3f1c4c"
+lazy = true
+os = "windows"
+target_arch = "i686"
+target_os = "windows"
+
+    [[GCC-build_log.download]]
+    sha256 = "a31b76599f42261179656379f3efda1318ef36da3067789defed7eebbae3e6d7"
+    url = "https://github.com/staticfloat/GCC_jll.jl/releases/download/v9.4.0/GCC-build_log-v9.4.0-i686-w64-mingw32-target_os+windows-target_arch+i686.tar.gz"
+
+[[GCC-extract_log]]
+arch = "aarch64"
+git-tree-sha1 = "3236d57d072522de758f47cb6973f4ec87315f40"
+lazy = true
+libc = "glibc"
+os = "linux"
+target_arch = "x86_64"
+target_libc = "glibc"
+target_os = "linux"
+
+    [[GCC-extract_log.download]]
+    sha256 = "2ae13af7b5a595367ee4956e0ede387a35e66b431368b46021b9c63724ce1c75"
+    url = "https://github.com/staticfloat/GCC_jll.jl/releases/download/v9.4.0/GCC-extract_log-v9.4.0-aarch64-linux-gnu-target_libc+glibc-target_os+linux-target_arch+x86_64.tar.gz"
+[[GCC-extract_log]]
+arch = "x86_64"
+git-tree-sha1 = "824ab024a1cc1df3c67bdd5a58a693a6cc155390"
+lazy = true
+libc = "glibc"
+os = "linux"
+target_arch = "i686"
+target_libc = "glibc"
+target_os = "linux"
+
+    [[GCC-extract_log.download]]
+    sha256 = "b0053e3697b57f67d0cc9fcdd130068ad2adaeee3179fba6b25469ba8d3f5503"
+    url = "https://github.com/staticfloat/GCC_jll.jl/releases/download/v9.4.0/GCC-extract_log-v9.4.0-x86_64-linux-gnu-target_libc+glibc-target_os+linux-target_arch+i686.tar.gz"
+[[GCC-extract_log]]
+arch = "aarch64"
+git-tree-sha1 = "9bd91174ea3f14d617af84f6e81dd4939d9acc70"
+lazy = true
+libc = "glibc"
+os = "linux"
+target_arch = "i686"
+target_libc = "glibc"
+target_os = "linux"
+
+    [[GCC-extract_log.download]]
+    sha256 = "63e111f7042457b4db420fdd90319a47b99b5ebe0044421476d3aa64ee1a445d"
+    url = "https://github.com/staticfloat/GCC_jll.jl/releases/download/v9.4.0/GCC-extract_log-v9.4.0-aarch64-linux-gnu-target_libc+glibc-target_os+linux-target_arch+i686.tar.gz"
+[[GCC-extract_log]]
+arch = "x86_64"
+git-tree-sha1 = "b8dc9c905e5a3fd958890cad37d01eb233d63f1f"
+lazy = true
+libc = "glibc"
+os = "linux"
+target_arch = "aarch64"
+target_libc = "glibc"
+target_os = "linux"
+
+    [[GCC-extract_log.download]]
+    sha256 = "0fb854fbc636d9e069e3abf6d968862086254b7df7f7afaa08366e63b3fab477"
+    url = "https://github.com/staticfloat/GCC_jll.jl/releases/download/v9.4.0/GCC-extract_log-v9.4.0-x86_64-linux-gnu-target_libc+glibc-target_os+linux-target_arch+aarch64.tar.gz"
+[[GCC-extract_log]]
+arch = "x86_64"
+git-tree-sha1 = "8f3da732d397169547ea9c49e156b1934a35caa5"
+lazy = true
+libc = "glibc"
+os = "linux"
+target_arch = "armv6l"
+target_call_abi = "eabihf"
+target_libc = "glibc"
+target_os = "linux"
+
+    [[GCC-extract_log.download]]
+    sha256 = "b5447eec3f57b1f3085cc691d320bd53efeaba6bcb44187c440b05d772333822"
+    url = "https://github.com/staticfloat/GCC_jll.jl/releases/download/v9.4.0/GCC-extract_log-v9.4.0-x86_64-linux-gnu-target_libc+glibc-target_os+linux-target_call_abi+eabihf-target_arch+armv6l.tar.gz"
+[[GCC-extract_log]]
+arch = "aarch64"
+git-tree-sha1 = "8b62f159f0f6258444b9661af4cd9e4239e272d6"
+lazy = true
+libc = "glibc"
+os = "linux"
+target_arch = "armv6l"
+target_call_abi = "eabihf"
+target_libc = "glibc"
+target_os = "linux"
+
+    [[GCC-extract_log.download]]
+    sha256 = "455f90606aad7c8329847f6a1afbc6c0bc2d0ae8c306cd9e87526b889d0ad746"
+    url = "https://github.com/staticfloat/GCC_jll.jl/releases/download/v9.4.0/GCC-extract_log-v9.4.0-aarch64-linux-gnu-target_libc+glibc-target_os+linux-target_call_abi+eabihf-target_arch+armv6l.tar.gz"
+[[GCC-extract_log]]
+arch = "x86_64"
+git-tree-sha1 = "93396c03b7134f8091af4527abc96888f2073e5f"
+lazy = true
+libc = "glibc"
+os = "linux"
+target_arch = "armv7l"
+target_call_abi = "eabihf"
+target_libc = "glibc"
+target_os = "linux"
+
+    [[GCC-extract_log.download]]
+    sha256 = "f1c9ab863023696f410821e087497d108138db78c6d2e1bab7fe197ee5f03c40"
+    url = "https://github.com/staticfloat/GCC_jll.jl/releases/download/v9.4.0/GCC-extract_log-v9.4.0-x86_64-linux-gnu-target_libc+glibc-target_os+linux-target_call_abi+eabihf-target_arch+armv7l.tar.gz"
+[[GCC-extract_log]]
+arch = "aarch64"
+git-tree-sha1 = "f77e8908a1ca923b805a87670cefbba418d568ed"
+lazy = true
+libc = "glibc"
+os = "linux"
+target_arch = "armv7l"
+target_call_abi = "eabihf"
+target_libc = "glibc"
+target_os = "linux"
+
+    [[GCC-extract_log.download]]
+    sha256 = "59d097e4d54ee170ca9936fdcbe8ed7b0d609ed050e6bc6ca406fc2fd759f0cd"
+    url = "https://github.com/staticfloat/GCC_jll.jl/releases/download/v9.4.0/GCC-extract_log-v9.4.0-aarch64-linux-gnu-target_libc+glibc-target_os+linux-target_call_abi+eabihf-target_arch+armv7l.tar.gz"
+[[GCC-extract_log]]
+arch = "x86_64"
+git-tree-sha1 = "c0042a544d52af1c921390865f7950b241e337c5"
+lazy = true
+libc = "glibc"
+os = "linux"
+target_arch = "powerpc64le"
+target_libc = "glibc"
+target_os = "linux"
+
+    [[GCC-extract_log.download]]
+    sha256 = "73c98d78f5a1a69703c81ca22763f037147222928044ebaa982d222dce7f472d"
+    url = "https://github.com/staticfloat/GCC_jll.jl/releases/download/v9.4.0/GCC-extract_log-v9.4.0-x86_64-linux-gnu-target_libc+glibc-target_os+linux-target_arch+powerpc64le.tar.gz"
+[[GCC-extract_log]]
+arch = "aarch64"
+git-tree-sha1 = "6a182759e2f901800a067d256eeec370360bbf02"
+lazy = true
+libc = "glibc"
+os = "linux"
+target_arch = "powerpc64le"
+target_libc = "glibc"
+target_os = "linux"
+
+    [[GCC-extract_log.download]]
+    sha256 = "c15207a757821d3405aebd0bf21e4bd648cc3d8e736d9823e5c02e1d13ed137b"
+    url = "https://github.com/staticfloat/GCC_jll.jl/releases/download/v9.4.0/GCC-extract_log-v9.4.0-aarch64-linux-gnu-target_libc+glibc-target_os+linux-target_arch+powerpc64le.tar.gz"
+[[GCC-extract_log]]
+arch = "x86_64"
+git-tree-sha1 = "abf399804130e47d972380304e4eda4175a4af81"
+lazy = true
+libc = "glibc"
+os = "linux"
+target_arch = "x86_64"
+target_libc = "musl"
+target_os = "linux"
+
+    [[GCC-extract_log.download]]
+    sha256 = "f3235d1ec4d5be11fb626008ede784097a48f6174b8606ced5a08447df5787de"
+    url = "https://github.com/staticfloat/GCC_jll.jl/releases/download/v9.4.0/GCC-extract_log-v9.4.0-x86_64-linux-gnu-target_libc+musl-target_os+linux-target_arch+x86_64.tar.gz"
+[[GCC-extract_log]]
+arch = "aarch64"
+git-tree-sha1 = "39ab12eb1c78d61c2fffa203394acd0d6965b97f"
+lazy = true
+libc = "glibc"
+os = "linux"
+target_arch = "x86_64"
+target_libc = "musl"
+target_os = "linux"
+
+    [[GCC-extract_log.download]]
+    sha256 = "ca7770c9543b863f89d8d9b86d39679fbcbf459cfdaa68636899074f5b3281ba"
+    url = "https://github.com/staticfloat/GCC_jll.jl/releases/download/v9.4.0/GCC-extract_log-v9.4.0-aarch64-linux-gnu-target_libc+musl-target_os+linux-target_arch+x86_64.tar.gz"
+[[GCC-extract_log]]
+arch = "x86_64"
+git-tree-sha1 = "35d929935e772607aa2e3552724da09a1c37fa3a"
+lazy = true
+libc = "glibc"
+os = "linux"
+target_arch = "i686"
+target_libc = "musl"
+target_os = "linux"
+
+    [[GCC-extract_log.download]]
+    sha256 = "14c67d872c19a0ffbfddfba0664f5c4fc9c8c5a73fa1b884a211f5b1651e8ca1"
+    url = "https://github.com/staticfloat/GCC_jll.jl/releases/download/v9.4.0/GCC-extract_log-v9.4.0-x86_64-linux-gnu-target_libc+musl-target_os+linux-target_arch+i686.tar.gz"
+[[GCC-extract_log]]
+arch = "aarch64"
+git-tree-sha1 = "8fcfc9b5c847de5df30078ed721efaf9bf7e0c37"
+lazy = true
+libc = "glibc"
+os = "linux"
+target_arch = "i686"
+target_libc = "musl"
+target_os = "linux"
+
+    [[GCC-extract_log.download]]
+    sha256 = "18477e32d373133e93afab1370c30d1985154ebee2282550587ca3fae7eedb6e"
+    url = "https://github.com/staticfloat/GCC_jll.jl/releases/download/v9.4.0/GCC-extract_log-v9.4.0-aarch64-linux-gnu-target_libc+musl-target_os+linux-target_arch+i686.tar.gz"
+[[GCC-extract_log]]
+arch = "x86_64"
+git-tree-sha1 = "611c67e3bb896b90ef4d5ed6edb8acbdaa445380"
+lazy = true
+libc = "glibc"
+os = "linux"
+target_arch = "aarch64"
+target_libc = "musl"
+target_os = "linux"
+
+    [[GCC-extract_log.download]]
+    sha256 = "5cd95383f94c3838371c4196943de54eac6c614517e07c39f0f0d6591b22d534"
+    url = "https://github.com/staticfloat/GCC_jll.jl/releases/download/v9.4.0/GCC-extract_log-v9.4.0-x86_64-linux-gnu-target_libc+musl-target_os+linux-target_arch+aarch64.tar.gz"
+[[GCC-extract_log]]
+arch = "aarch64"
+git-tree-sha1 = "a661352af3c439c02d7ac11d24e08e2f4be07460"
+lazy = true
+libc = "glibc"
+os = "linux"
+target_arch = "aarch64"
+target_libc = "musl"
+target_os = "linux"
+
+    [[GCC-extract_log.download]]
+    sha256 = "c4a832ff4c4c937b18dc5e96e658ff7ee9d37613dbef3ec6bf2ab2812f740e78"
+    url = "https://github.com/staticfloat/GCC_jll.jl/releases/download/v9.4.0/GCC-extract_log-v9.4.0-aarch64-linux-gnu-target_libc+musl-target_os+linux-target_arch+aarch64.tar.gz"
+[[GCC-extract_log]]
+arch = "x86_64"
+git-tree-sha1 = "08674589a9509e5a7a082e74f63ad616673ee81f"
+lazy = true
+libc = "glibc"
+os = "linux"
+target_arch = "armv6l"
+target_call_abi = "eabihf"
+target_libc = "musl"
+target_os = "linux"
+
+    [[GCC-extract_log.download]]
+    sha256 = "99074eeedae61a4bade36046e022bccbe8b82e2ff38a891f591b5eb114a6dc24"
+    url = "https://github.com/staticfloat/GCC_jll.jl/releases/download/v9.4.0/GCC-extract_log-v9.4.0-x86_64-linux-gnu-target_libc+musl-target_os+linux-target_call_abi+eabihf-target_arch+armv6l.tar.gz"
+[[GCC-extract_log]]
+arch = "aarch64"
+git-tree-sha1 = "ff1d2ed737ff83d493a59f1b55d87de23d759771"
+lazy = true
+libc = "glibc"
+os = "linux"
+target_arch = "armv6l"
+target_call_abi = "eabihf"
+target_libc = "musl"
+target_os = "linux"
+
+    [[GCC-extract_log.download]]
+    sha256 = "68a2d3f0d4d950557561c0ed041c2f9edf717e5b9dc6182a8cf7187217c8fe04"
+    url = "https://github.com/staticfloat/GCC_jll.jl/releases/download/v9.4.0/GCC-extract_log-v9.4.0-aarch64-linux-gnu-target_libc+musl-target_os+linux-target_call_abi+eabihf-target_arch+armv6l.tar.gz"
+[[GCC-extract_log]]
+arch = "x86_64"
+git-tree-sha1 = "497b8316a063bda51b031f9523190bb90271ee50"
+lazy = true
+libc = "glibc"
+os = "linux"
+target_arch = "armv7l"
+target_call_abi = "eabihf"
+target_libc = "musl"
+target_os = "linux"
+
+    [[GCC-extract_log.download]]
+    sha256 = "0a0051e92173629c9fca52629107370a998f17100843c675ffbf1e252a3adc0c"
+    url = "https://github.com/staticfloat/GCC_jll.jl/releases/download/v9.4.0/GCC-extract_log-v9.4.0-x86_64-linux-gnu-target_libc+musl-target_os+linux-target_call_abi+eabihf-target_arch+armv7l.tar.gz"
+[[GCC-extract_log]]
+arch = "aarch64"
+git-tree-sha1 = "4176fc478a203f1d3ad8ab554e2e97d80cd3cfb5"
+lazy = true
+libc = "glibc"
+os = "linux"
+target_arch = "armv7l"
+target_call_abi = "eabihf"
+target_libc = "musl"
+target_os = "linux"
+
+    [[GCC-extract_log.download]]
+    sha256 = "b9e8e64113e7635c2a35ee7c476746256d09c7d09fe5b0190ddf8dab0d08e6c9"
+    url = "https://github.com/staticfloat/GCC_jll.jl/releases/download/v9.4.0/GCC-extract_log-v9.4.0-aarch64-linux-gnu-target_libc+musl-target_os+linux-target_call_abi+eabihf-target_arch+armv7l.tar.gz"
+[[GCC-extract_log]]
+arch = "x86_64"
+git-tree-sha1 = "e9f70870ffb6e942a32c36caaa3d85a13762db4b"
+lazy = true
+libc = "glibc"
+os = "linux"
+target_arch = "x86_64"
+target_os = "windows"
+
+    [[GCC-extract_log.download]]
+    sha256 = "2447ce29e34a4b9c580f74a800a535be208750187795f8beafd1ff77927cbdf2"
+    url = "https://github.com/staticfloat/GCC_jll.jl/releases/download/v9.4.0/GCC-extract_log-v9.4.0-x86_64-linux-gnu-target_os+windows-target_arch+x86_64.tar.gz"
+[[GCC-extract_log]]
+arch = "aarch64"
+git-tree-sha1 = "b2cb861deea36736af97d4e9cffd699ef04301ed"
+lazy = true
+libc = "glibc"
+os = "linux"
+target_arch = "x86_64"
+target_os = "windows"
+
+    [[GCC-extract_log.download]]
+    sha256 = "8603f3093726a2cfb32ec579c1c8c481ecaa82ec77265cf736dd549fda390ee3"
+    url = "https://github.com/staticfloat/GCC_jll.jl/releases/download/v9.4.0/GCC-extract_log-v9.4.0-aarch64-linux-gnu-target_os+windows-target_arch+x86_64.tar.gz"
+[[GCC-extract_log]]
+arch = "x86_64"
+git-tree-sha1 = "62e597c901b53dfaa379d64ea2ec2c77b5e5530f"
+lazy = true
+libc = "glibc"
+os = "linux"
+target_arch = "i686"
+target_os = "windows"
+
+    [[GCC-extract_log.download]]
+    sha256 = "1024a9c85813874da2e69a583c60ad713d136241385ab0f088da50fa03030d44"
+    url = "https://github.com/staticfloat/GCC_jll.jl/releases/download/v9.4.0/GCC-extract_log-v9.4.0-x86_64-linux-gnu-target_os+windows-target_arch+i686.tar.gz"
+[[GCC-extract_log]]
+arch = "aarch64"
+git-tree-sha1 = "5d1c2aa006953ba72d0848468ac800bb7316b09c"
+lazy = true
+libc = "glibc"
+os = "linux"
+target_arch = "i686"
+target_os = "windows"
+
+    [[GCC-extract_log.download]]
+    sha256 = "ec2bbab28ebf694a29b82ce85eecf65df93ddf54097b71038a5f1c729949949e"
+    url = "https://github.com/staticfloat/GCC_jll.jl/releases/download/v9.4.0/GCC-extract_log-v9.4.0-aarch64-linux-gnu-target_os+windows-target_arch+i686.tar.gz"
+[[GCC-extract_log]]
+arch = "x86_64"
+git-tree-sha1 = "c7270b39495a62d59dd96a3b3bad69bad680eddd"
+lazy = true
+libc = "glibc"
+os = "linux"
+target_arch = "x86_64"
+target_libc = "glibc"
+target_os = "linux"
+
+    [[GCC-extract_log.download]]
+    sha256 = "b2790498bc7e19719ea8660f285a4d5c29f482029e3a8b83e0b1f285f809ec66"
+    url = "https://github.com/staticfloat/GCC_jll.jl/releases/download/v9.4.0/GCC-extract_log-v9.4.0-x86_64-linux-gnu-target_libc+glibc-target_os+linux-target_arch+x86_64.tar.gz"
+[[GCC-extract_log]]
+arch = "i686"
+git-tree-sha1 = "adcc73581b1d57c8ebb5db8ca30a98ac1839d308"
+lazy = true
+libc = "glibc"
+os = "linux"
+target_arch = "i686"
+target_libc = "glibc"
+target_os = "linux"
+
+    [[GCC-extract_log.download]]
+    sha256 = "d4b3174b196146d187864b2af125493603e55e030e3f431056b0ea7870c760d3"
+    url = "https://github.com/staticfloat/GCC_jll.jl/releases/download/v9.4.0/GCC-extract_log-v9.4.0-i686-linux-gnu-target_libc+glibc-target_os+linux-target_arch+i686.tar.gz"
+[[GCC-extract_log]]
+arch = "aarch64"
+git-tree-sha1 = "e32734de612d5b9eaedc4980096644bf02ae6922"
+lazy = true
+libc = "glibc"
+os = "linux"
+target_arch = "aarch64"
+target_libc = "glibc"
+target_os = "linux"
+
+    [[GCC-extract_log.download]]
+    sha256 = "73f4fe9f4fcac359d0a3139eb8db95e8d4fdca9690b26e8d33e405ddb36f9846"
+    url = "https://github.com/staticfloat/GCC_jll.jl/releases/download/v9.4.0/GCC-extract_log-v9.4.0-aarch64-linux-gnu-target_libc+glibc-target_os+linux-target_arch+aarch64.tar.gz"
+[[GCC-extract_log]]
+arch = "armv6l"
+call_abi = "eabihf"
+git-tree-sha1 = "715b4bf3471d6dd6b387f3d9db5860755b5cec08"
+lazy = true
+libc = "glibc"
+os = "linux"
+target_arch = "armv6l"
+target_call_abi = "eabihf"
+target_libc = "glibc"
+target_os = "linux"
+
+    [[GCC-extract_log.download]]
+    sha256 = "b09b2b5ea1a23b242d9ac58225b6fbec492ea6f887ea295ad61bb89e53cebd6a"
+    url = "https://github.com/staticfloat/GCC_jll.jl/releases/download/v9.4.0/GCC-extract_log-v9.4.0-armv6l-linux-gnueabihf-target_libc+glibc-target_os+linux-target_call_abi+eabihf-target_arch+armv6l.tar.gz"
+[[GCC-extract_log]]
+arch = "armv7l"
+call_abi = "eabihf"
+git-tree-sha1 = "ba7675ede0d9b5853fdda2f1559e785f939b7ca4"
+lazy = true
+libc = "glibc"
+os = "linux"
+target_arch = "armv7l"
+target_call_abi = "eabihf"
+target_libc = "glibc"
+target_os = "linux"
+
+    [[GCC-extract_log.download]]
+    sha256 = "b532262378a8752e8e39115c9c9984db319d98cda065f9b8974da732efb66231"
+    url = "https://github.com/staticfloat/GCC_jll.jl/releases/download/v9.4.0/GCC-extract_log-v9.4.0-armv7l-linux-gnueabihf-target_libc+glibc-target_os+linux-target_call_abi+eabihf-target_arch+armv7l.tar.gz"
+[[GCC-extract_log]]
+arch = "powerpc64le"
+git-tree-sha1 = "f9b41baa60ac78aabefd3ffe61d6149842c32aad"
+lazy = true
+libc = "glibc"
+os = "linux"
+target_arch = "powerpc64le"
+target_libc = "glibc"
+target_os = "linux"
+
+    [[GCC-extract_log.download]]
+    sha256 = "85f3e5202dae530cfd0f1aab9c983eec84ec43079ba41059713f5f13762ed67c"
+    url = "https://github.com/staticfloat/GCC_jll.jl/releases/download/v9.4.0/GCC-extract_log-v9.4.0-powerpc64le-linux-gnu-target_libc+glibc-target_os+linux-target_arch+powerpc64le.tar.gz"
+[[GCC-extract_log]]
+arch = "x86_64"
+git-tree-sha1 = "684f866635e66572eb087aa05517b38c8e6faaa4"
+lazy = true
+libc = "musl"
+os = "linux"
+target_arch = "x86_64"
+target_libc = "musl"
+target_os = "linux"
+
+    [[GCC-extract_log.download]]
+    sha256 = "0adddaebd2d375b778d365466b5ecde6833ec86b820b7a26171535470585b429"
+    url = "https://github.com/staticfloat/GCC_jll.jl/releases/download/v9.4.0/GCC-extract_log-v9.4.0-x86_64-linux-musl-target_libc+musl-target_os+linux-target_arch+x86_64.tar.gz"
+[[GCC-extract_log]]
+arch = "i686"
+git-tree-sha1 = "83c9f0fa26476517738b0c636b034aab9bacf836"
+lazy = true
+libc = "musl"
+os = "linux"
+target_arch = "i686"
+target_libc = "musl"
+target_os = "linux"
+
+    [[GCC-extract_log.download]]
+    sha256 = "3285fe5ff8fed473f08f7b8ffe965c0e12f3f90d3bf05a2a8f2f510a43633f57"
+    url = "https://github.com/staticfloat/GCC_jll.jl/releases/download/v9.4.0/GCC-extract_log-v9.4.0-i686-linux-musl-target_libc+musl-target_os+linux-target_arch+i686.tar.gz"
+[[GCC-extract_log]]
+arch = "aarch64"
+git-tree-sha1 = "ea96aa11c6187351b098cf481d7945dcd5d59fd4"
+lazy = true
+libc = "musl"
+os = "linux"
+target_arch = "aarch64"
+target_libc = "musl"
+target_os = "linux"
+
+    [[GCC-extract_log.download]]
+    sha256 = "d682b6d631a9912ea567446045f087f3ebf730e3e52ccfcf7f4afac00a2e28ef"
+    url = "https://github.com/staticfloat/GCC_jll.jl/releases/download/v9.4.0/GCC-extract_log-v9.4.0-aarch64-linux-musl-target_libc+musl-target_os+linux-target_arch+aarch64.tar.gz"
+[[GCC-extract_log]]
+arch = "armv6l"
+call_abi = "eabihf"
+git-tree-sha1 = "3c5e1376c205fc8a81008ae7765d7f015bda5e17"
+lazy = true
+libc = "musl"
+os = "linux"
+target_arch = "armv6l"
+target_call_abi = "eabihf"
+target_libc = "musl"
+target_os = "linux"
+
+    [[GCC-extract_log.download]]
+    sha256 = "92f8af936691d78e9f06ea29a59eefab510f4caf45d675221ea73d8fdb40ee49"
+    url = "https://github.com/staticfloat/GCC_jll.jl/releases/download/v9.4.0/GCC-extract_log-v9.4.0-armv6l-linux-musleabihf-target_libc+musl-target_os+linux-target_call_abi+eabihf-target_arch+armv6l.tar.gz"
+[[GCC-extract_log]]
+arch = "armv7l"
+call_abi = "eabihf"
+git-tree-sha1 = "50fc2260f073ba003abc90f841b3ef93f6aaf872"
+lazy = true
+libc = "musl"
+os = "linux"
+target_arch = "armv7l"
+target_call_abi = "eabihf"
+target_libc = "musl"
+target_os = "linux"
+
+    [[GCC-extract_log.download]]
+    sha256 = "ce5adb6cd4ecb96a89b44cc8e93398765f92db5964855d886961c784e8b0b2c0"
+    url = "https://github.com/staticfloat/GCC_jll.jl/releases/download/v9.4.0/GCC-extract_log-v9.4.0-armv7l-linux-musleabihf-target_libc+musl-target_os+linux-target_call_abi+eabihf-target_arch+armv7l.tar.gz"
+[[GCC-extract_log]]
+arch = "x86_64"
+git-tree-sha1 = "f272e8c270e51f243b9a73a675bb9dc678153e9a"
+lazy = true
+os = "windows"
+target_arch = "x86_64"
+target_os = "windows"
+
+    [[GCC-extract_log.download]]
+    sha256 = "d1d41e382ed50806fa63beadcea212311e987a0cf2db404f4c91516a196f29f3"
+    url = "https://github.com/staticfloat/GCC_jll.jl/releases/download/v9.4.0/GCC-extract_log-v9.4.0-x86_64-w64-mingw32-target_os+windows-target_arch+x86_64.tar.gz"
+[[GCC-extract_log]]
+arch = "i686"
+git-tree-sha1 = "fcbe7864a2bcbec22d59e459174badb8fc5e5747"
+lazy = true
+os = "windows"
+target_arch = "i686"
+target_os = "windows"
+
+    [[GCC-extract_log.download]]
+    sha256 = "f8872415ba37ac46116cb86aa051df40af10e4d9fd9421ab6f4bff5b1e4a70df"
+    url = "https://github.com/staticfloat/GCC_jll.jl/releases/download/v9.4.0/GCC-extract_log-v9.4.0-i686-w64-mingw32-target_os+windows-target_arch+i686.tar.gz"
