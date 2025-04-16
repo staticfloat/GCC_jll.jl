@@ -17,6 +17,34 @@ The binaries for `GCC` have been built from upstream sources version v14.2.0:
 
 `GCC` is available for the following platforms:
 
+ - `CrossPlatform(Platform("aarch64", "linux"; libc = "glibc") -> Platform("x86_64", "linux"; libc = "glibc"))`
+ - `CrossPlatform(Platform("x86_64", "linux"; libc = "glibc") -> Platform("i686", "linux"; libc = "glibc"))`
+ - `CrossPlatform(Platform("aarch64", "linux"; libc = "glibc") -> Platform("i686", "linux"; libc = "glibc"))`
+ - `CrossPlatform(Platform("x86_64", "linux"; libc = "glibc") -> Platform("aarch64", "linux"; libc = "glibc"))`
+ - `CrossPlatform(Platform("x86_64", "linux"; libc = "glibc") -> Platform("armv6l", "linux"; call_abi = "eabihf", libc = "glibc"))`
+ - `CrossPlatform(Platform("aarch64", "linux"; libc = "glibc") -> Platform("armv6l", "linux"; call_abi = "eabihf", libc = "glibc"))`
+ - `CrossPlatform(Platform("x86_64", "linux"; libc = "glibc") -> Platform("armv7l", "linux"; call_abi = "eabihf", libc = "glibc"))`
+ - `CrossPlatform(Platform("aarch64", "linux"; libc = "glibc") -> Platform("armv7l", "linux"; call_abi = "eabihf", libc = "glibc"))`
+ - `CrossPlatform(Platform("x86_64", "linux"; libc = "glibc") -> Platform("powerpc64le", "linux"; libc = "glibc"))`
+ - `CrossPlatform(Platform("aarch64", "linux"; libc = "glibc") -> Platform("powerpc64le", "linux"; libc = "glibc"))`
+ - `CrossPlatform(Platform("x86_64", "linux"; libc = "glibc") -> Platform("x86_64", "linux"; libc = "musl"))`
+ - `CrossPlatform(Platform("aarch64", "linux"; libc = "glibc") -> Platform("x86_64", "linux"; libc = "musl"))`
+ - `CrossPlatform(Platform("x86_64", "linux"; libc = "glibc") -> Platform("i686", "linux"; libc = "musl"))`
+ - `CrossPlatform(Platform("aarch64", "linux"; libc = "glibc") -> Platform("i686", "linux"; libc = "musl"))`
+ - `CrossPlatform(Platform("x86_64", "linux"; libc = "glibc") -> Platform("aarch64", "linux"; libc = "musl"))`
+ - `CrossPlatform(Platform("aarch64", "linux"; libc = "glibc") -> Platform("aarch64", "linux"; libc = "musl"))`
+ - `CrossPlatform(Platform("x86_64", "linux"; libc = "glibc") -> Platform("armv6l", "linux"; call_abi = "eabihf", libc = "musl"))`
+ - `CrossPlatform(Platform("aarch64", "linux"; libc = "glibc") -> Platform("armv6l", "linux"; call_abi = "eabihf", libc = "musl"))`
+ - `CrossPlatform(Platform("x86_64", "linux"; libc = "glibc") -> Platform("armv7l", "linux"; call_abi = "eabihf", libc = "musl"))`
+ - `CrossPlatform(Platform("aarch64", "linux"; libc = "glibc") -> Platform("armv7l", "linux"; call_abi = "eabihf", libc = "musl"))`
+ - `CrossPlatform(Platform("x86_64", "linux"; libc = "glibc") -> Platform("x86_64", "windows"; ))`
+ - `CrossPlatform(Platform("aarch64", "linux"; libc = "glibc") -> Platform("x86_64", "windows"; ))`
+ - `CrossPlatform(Platform("x86_64", "linux"; libc = "glibc") -> Platform("i686", "windows"; ))`
+ - `CrossPlatform(Platform("aarch64", "linux"; libc = "glibc") -> Platform("i686", "windows"; ))`
+ - `CrossPlatform(Platform("x86_64", "linux"; libc = "glibc") -> Platform("x86_64", "macos"; ))`
+ - `CrossPlatform(Platform("aarch64", "linux"; libc = "glibc") -> Platform("x86_64", "macos"; ))`
+ - `CrossPlatform(Platform("x86_64", "linux"; libc = "glibc") -> Platform("aarch64", "macos"; ))`
+ - `CrossPlatform(Platform("aarch64", "linux"; libc = "glibc") -> Platform("aarch64", "macos"; ))`
  - `CrossPlatform(Platform("x86_64", "linux"; libc = "glibc") -> Platform("x86_64", "linux"; libc = "glibc"))`
  - `CrossPlatform(Platform("i686", "linux"; libc = "glibc") -> Platform("i686", "linux"; libc = "glibc"))`
  - `CrossPlatform(Platform("aarch64", "linux"; libc = "glibc") -> Platform("aarch64", "linux"; libc = "glibc"))`
