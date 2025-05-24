@@ -58,8 +58,8 @@ The binaries for `GCC` have been built from upstream sources version v14.2.0:
  - `CrossPlatform(Platform("armv7l", "linux"; call_abi = "eabihf", libc = "musl") -> Platform("armv7l", "linux"; call_abi = "eabihf", libc = "musl"))`
  - `CrossPlatform(Platform("x86_64", "windows"; ) -> Platform("x86_64", "windows"; ))`
  - `CrossPlatform(Platform("i686", "windows"; ) -> Platform("i686", "windows"; ))`
- - `CrossPlatform(Platform("x86_64", "macos"; ) -> Platform("x86_64", "macos"; ))`
- - `CrossPlatform(Platform("aarch64", "macos"; ) -> Platform("aarch64", "macos"; ))`
+ - `CrossPlatform(Platform("x86_64", "macos"; os_version = "14") -> Platform("x86_64", "macos"; ))`
+ - `CrossPlatform(Platform("aarch64", "macos"; os_version = "20") -> Platform("aarch64", "macos"; ))`
 # Dependencies
 The following JLL packages are required by `GCC`:
 
