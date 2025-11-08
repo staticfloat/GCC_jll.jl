@@ -21,8 +21,6 @@ The binaries for `GCC` have been built from upstream sources version v14.2.0:
  - `CrossPlatform(Platform("x86_64", "linux"; libc = "glibc") -> Platform("i686", "linux"; libc = "glibc"))`
  - `CrossPlatform(Platform("aarch64", "linux"; libc = "glibc") -> Platform("i686", "linux"; libc = "glibc"))`
  - `CrossPlatform(Platform("x86_64", "linux"; libc = "glibc") -> Platform("aarch64", "linux"; libc = "glibc"))`
- - `CrossPlatform(Platform("x86_64", "linux"; libc = "glibc") -> Platform("armv6l", "linux"; call_abi = "eabihf", libc = "glibc"))`
- - `CrossPlatform(Platform("aarch64", "linux"; libc = "glibc") -> Platform("armv6l", "linux"; call_abi = "eabihf", libc = "glibc"))`
  - `CrossPlatform(Platform("x86_64", "linux"; libc = "glibc") -> Platform("armv7l", "linux"; call_abi = "eabihf", libc = "glibc"))`
  - `CrossPlatform(Platform("aarch64", "linux"; libc = "glibc") -> Platform("armv7l", "linux"; call_abi = "eabihf", libc = "glibc"))`
  - `CrossPlatform(Platform("x86_64", "linux"; libc = "glibc") -> Platform("powerpc64le", "linux"; libc = "glibc"))`
@@ -41,14 +39,17 @@ The binaries for `GCC` have been built from upstream sources version v14.2.0:
  - `CrossPlatform(Platform("aarch64", "linux"; libc = "glibc") -> Platform("x86_64", "windows"; ))`
  - `CrossPlatform(Platform("x86_64", "linux"; libc = "glibc") -> Platform("i686", "windows"; ))`
  - `CrossPlatform(Platform("aarch64", "linux"; libc = "glibc") -> Platform("i686", "windows"; ))`
- - `CrossPlatform(Platform("x86_64", "linux"; libc = "glibc") -> Platform("x86_64", "macos"; ))`
- - `CrossPlatform(Platform("aarch64", "linux"; libc = "glibc") -> Platform("x86_64", "macos"; ))`
- - `CrossPlatform(Platform("x86_64", "linux"; libc = "glibc") -> Platform("aarch64", "macos"; ))`
- - `CrossPlatform(Platform("aarch64", "linux"; libc = "glibc") -> Platform("aarch64", "macos"; ))`
+ - `CrossPlatform(Platform("x86_64", "linux"; libc = "glibc") -> Platform("x86_64", "macos"; os_version = "20.0.0"))`
+ - `CrossPlatform(Platform("aarch64", "linux"; libc = "glibc") -> Platform("x86_64", "macos"; os_version = "20.0.0"))`
+ - `CrossPlatform(Platform("x86_64", "linux"; libc = "glibc") -> Platform("aarch64", "macos"; os_version = "20.0.0"))`
+ - `CrossPlatform(Platform("aarch64", "linux"; libc = "glibc") -> Platform("aarch64", "macos"; os_version = "20.0.0"))`
+ - `CrossPlatform(Platform("x86_64", "linux"; libc = "glibc") -> Platform("x86_64", "freebsd"; os_version = "14.1.0"))`
+ - `CrossPlatform(Platform("aarch64", "linux"; libc = "glibc") -> Platform("x86_64", "freebsd"; os_version = "14.1.0"))`
+ - `CrossPlatform(Platform("x86_64", "linux"; libc = "glibc") -> Platform("aarch64", "freebsd"; os_version = "14.1.0"))`
+ - `CrossPlatform(Platform("aarch64", "linux"; libc = "glibc") -> Platform("aarch64", "freebsd"; os_version = "14.1.0"))`
  - `CrossPlatform(Platform("x86_64", "linux"; libc = "glibc") -> Platform("x86_64", "linux"; libc = "glibc"))`
  - `CrossPlatform(Platform("i686", "linux"; libc = "glibc") -> Platform("i686", "linux"; libc = "glibc"))`
  - `CrossPlatform(Platform("aarch64", "linux"; libc = "glibc") -> Platform("aarch64", "linux"; libc = "glibc"))`
- - `CrossPlatform(Platform("armv6l", "linux"; call_abi = "eabihf", libc = "glibc") -> Platform("armv6l", "linux"; call_abi = "eabihf", libc = "glibc"))`
  - `CrossPlatform(Platform("armv7l", "linux"; call_abi = "eabihf", libc = "glibc") -> Platform("armv7l", "linux"; call_abi = "eabihf", libc = "glibc"))`
  - `CrossPlatform(Platform("powerpc64le", "linux"; libc = "glibc") -> Platform("powerpc64le", "linux"; libc = "glibc"))`
  - `CrossPlatform(Platform("x86_64", "linux"; libc = "musl") -> Platform("x86_64", "linux"; libc = "musl"))`
@@ -58,8 +59,10 @@ The binaries for `GCC` have been built from upstream sources version v14.2.0:
  - `CrossPlatform(Platform("armv7l", "linux"; call_abi = "eabihf", libc = "musl") -> Platform("armv7l", "linux"; call_abi = "eabihf", libc = "musl"))`
  - `CrossPlatform(Platform("x86_64", "windows"; ) -> Platform("x86_64", "windows"; ))`
  - `CrossPlatform(Platform("i686", "windows"; ) -> Platform("i686", "windows"; ))`
- - `CrossPlatform(Platform("x86_64", "macos"; os_version = "14") -> Platform("x86_64", "macos"; ))`
- - `CrossPlatform(Platform("aarch64", "macos"; os_version = "20") -> Platform("aarch64", "macos"; ))`
+ - `CrossPlatform(Platform("x86_64", "macos"; os_version = "20.0.0") -> Platform("x86_64", "macos"; os_version = "20.0.0"))`
+ - `CrossPlatform(Platform("aarch64", "macos"; os_version = "20.0.0") -> Platform("aarch64", "macos"; os_version = "20.0.0"))`
+ - `CrossPlatform(Platform("x86_64", "freebsd"; os_version = "14.1.0") -> Platform("x86_64", "freebsd"; os_version = "14.1.0"))`
+ - `CrossPlatform(Platform("aarch64", "freebsd"; os_version = "14.1.0") -> Platform("aarch64", "freebsd"; os_version = "14.1.0"))`
 # Dependencies
 The following JLL packages are required by `GCC`:
 
